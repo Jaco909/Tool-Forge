@@ -1,0 +1,604 @@
+[object]
+GunsmithStation=Tool Crafting Station
+PartsBench=Parts Bench
+PartsBenchTier2=Demonic Parts Bench
+PartsBenchTier3=Tungsten Parts Bench
+PartsBenchTier4=Fallen Parts Bench
+BonusPartStation=Modifier Anvil
+
+[tech]
+PARTSBENCH=Parts Bench
+PARTSBENCH2=Demonic Parts Bench
+PARTSBENCH3=Tungsten Parts Bench
+PARTSBENCH4=Fallen Parts Bench
+
+[itemcategory]
+pistolBarrel=Handgun Barrels
+pistolBody=Handgun Bodies
+pistolStock=Handgun Stocks
+shotgunBarrel=Shotgun Barrels
+shotgunBody=Shotgun Bodies
+shotgunStock=Shotgun Stocks
+pickaxeHead=Pickaxe Heads
+pickaxeBody=Pickaxe Braces
+pickaxeShaft=Tool Shafts
+shovelHead=Shovel Heads
+shovelBody=Shovel Braces
+glaiveBlade=Glaive Blade
+glaiveGrip=Glaive Grip
+glaiveShaft=Glaive Shaft
+
+[item]
+myceliumhat=Debug Hat
+
+ModularShotgun=Shotgun
+ModularSMG=Machinegun
+ModularPistol=Handgun
+ModularBullet=Bullet
+ModularPickaxe=Pickaxe
+ModularGlaive=Glaive
+ModularShovel=Shovel
+
+DebugHead=Copper Bullet Tip
+DebugHeadName=Copper-Tipped
+DebugBody=Gunpowder Bullet Primer
+DebugBodyName=Standard
+DebugEnd=Iron Bullet Casing
+DebugEndName=Iron
+
+HeadPickaxeWood=Wooden Pickaxe Head
+HeadPickaxeWoodName=Wooden
+HeadPickaxeIron=Iron Pickaxe Head
+HeadPickaxeIronName=Iron
+HeadPickaxeCopper=Copper Pickaxe Head
+HeadPickaxeCopperName=Copper
+HeadPickaxeGold=Gold Pickaxe Head
+HeadPickaxeGoldName=Gold
+HeadPickaxeFrost=Frost Pickaxe Head
+HeadPickaxeFrostName=Frost
+HeadPickaxeDemonic=Demonic Pickaxe Head
+HeadPickaxeDemonicName=Demonic
+HeadPickaxeIvy=Ivy Pickaxe Head
+HeadPickaxeIvyName=Ivy
+HeadPickaxeTungsten=Tungsten Pickaxe Head
+HeadPickaxeTungstenName=Tungsten
+HeadPickaxeGlacial=Glacial Pickaxe Head
+HeadPickaxeGlacialName=Glacial
+HeadPickaxeDryad=Dryad Pickaxe Head
+HeadPickaxeDryadName=Dryad
+HeadPickaxeMycelium=Mycelium Pickaxe Head
+HeadPickaxeMyceliumName=Mycelium
+HeadPickaxeAncient=Ancient Pickaxe Head
+HeadPickaxeAncientName=Ancient
+HeadPickaxeIce=Ice Pickaxe Head
+HeadPickaxeIceName=Ice
+HeadPickaxeMagma=Magma Pickaxe Head
+HeadPickaxeMagmaName=Magma
+HeadPickaxeCrystal=Crystal Pickaxe Head
+HeadPickaxeCrystalName=Crystal
+HeadPickaxePlanetary=Planetary Pickaxe Head
+HeadPickaxePlanetaryName=Planetary
+HeadPickaxeQuartz=Quartz Pickaxe Head
+HeadPickaxeQuartzName=Quartz
+HeadPickaxeRunic=Runic Pickaxe Head
+HeadPickaxeRunicName=Runic
+
+HeadShovelWood=Wooden Shovel Head
+HeadShovelWoodName=Wooden
+HeadShovelIron=Iron Shovel Head
+HeadShovelIronName=Iron
+HeadShovelCopper=Copper Shovel Head
+HeadShovelCopperName=Copper
+HeadShovelGold=Gold Shovel Head
+HeadShovelGoldName=Gold
+HeadShovelFrost=Frost Shovel Head
+HeadShovelFrostName=Frost
+HeadShovelDemonic=Demonic Shovel Head
+HeadShovelDemonicName=Demonic
+HeadShovelIvy=Ivy Shovel Head
+HeadShovelIvyName=Ivy
+HeadShovelTungsten=Tungsten Shovel Head
+HeadShovelTungstenName=Tungsten
+HeadShovelGlacial=Glacial Shovel Head
+HeadShovelGlacialName=Glacial
+HeadShovelDryad=Dryad Shovel Head
+HeadShovelDryadName=Dryad
+HeadShovelMycelium=Mycelium Shovel Head
+HeadShovelMyceliumName=Mycelium
+HeadShovelAncient=Ancient Shovel Head
+HeadShovelAncientName=Ancient
+HeadShovelIce=Ice Shovel Head
+HeadShovelIceName=Ice
+HeadShovelMagma=Magma Shovel Head
+HeadShovelMagmaName=Magma
+HeadShovelCrystal=Crystal Shovel Head
+HeadShovelCrystalName=Crystal
+HeadShovelPlanetary=Planetary Shovel Head
+HeadShovelPlanetaryName=Planetary
+HeadShovelQuartz=Quartz Shovel Head
+HeadShovelQuartzName=Quartz
+HeadShovelRunic=Runic Shovel Head
+HeadShovelRunicName=Runic
+
+HeadGlaiveIron=Iron Glaive Blade
+HeadGlaiveIronName=Iron
+
+BarrelPistolIron=Iron Handgun Barrel
+BarrelPistolIronName=Iron
+BarrelPistolGilded=Gilded Handgun Barrel
+BarrelPistolGildedName=Gilded
+
+BarrelShotgunIron=Iron Shotgun Barrel
+BarrelShotgunIronName=Iron
+BarrelShotgunCopper=Copper Shotgun Barrel
+BarrelShotgunCopperName=Copper
+BarrelShotgunGold=Gold Shotgun Barrel
+BarrelShotgunGoldName=Gold
+BarrelShotgunVoid=Void Shotgun Barrel
+BarrelShotgunVoidName=Void
+BarrelShotgunShadow=Shadow Shotgun Barrel
+BarrelShotgunShadowName=Shadow
+BarrelShotgunPowered=Powered Shotgun Barrel
+BarrelShotgunPoweredName=Powered
+BarrelShotgunCrystalized=Crystalized Shotgun Barrel
+BarrelShotgunCrystalizedName=Crystalized
+BarrelShotgunNatural=Tightened Shotgun Barrel
+BarrelShotgunNaturalName=Tightened
+
+BarrelMachinegunIron=Iron Machinegun Barrel
+BarrelMachinegunIronName=Iron
+BarrelMachinegunCopper=Copper Machinegun Barrel
+BarrelMachinegunCopperName=Copper
+BarrelMachinegunCopper=Gold Machinegun Barrel
+BarrelMachinegunCopperName=Gold
+BarrelMachinegunIvy=Ivy Machinegun Barrel
+BarrelMachinegunIvyName=Ivy
+BarrelMachinegunLight=Light Machinegun Barrel
+BarrelMachinegunLightName=Light
+BarrelMachinegunHeavy=Heavy Machinegun Barrel
+BarrelMachinegunHeavyName=Heavy
+BarrelMachinegunLoose=Loose Machinegun Barrel
+BarrelMachinegunLooseName=Loose
+
+BodyPickaxeBasic=Basic Pickaxe Brace
+BodyPickaxeBasicName=Basic
+BodyPickaxeBattle=Battle Pickaxe Brace
+BodyPickaxeBattleName=Battle
+BodyPickaxeVein=Specialized Pickaxe Brace
+BodyPickaxeVeinName=Specialized
+BodyPickaxeDowsing=Dowsing Pickaxe Brace
+BodyPickaxeDowsingName=Dowsing
+BodyPickaxeAccelerating=Accelerating Pickaxe Brace
+BodyPickaxeAcceleratingName=Accelerating
+BodyPickaxeMini=Mini Pickaxe Brace
+BodyPickaxeMiniName=Mini
+
+BodyShovelBasic=Basic Shovel Brace
+BodyShovelBasicName=Basic
+BodyShovelBucket=Bucket Shovel Brace
+BodyShovelBucketName=Bucket
+BodyShovelBlock=Knight's Shovel Brace
+BodyShovelBlockName=Knight's
+BodyShovelGrass=Rooted Pickaxe Brace
+BodyShovelGrassName=Rooted
+
+BodyGlaiveBasic=Basic Glaive Grip
+BodyGlaiveBasicName=Basic
+BodyGlaiveFire=Flaming Glaive Grip
+BodyGlaiveFireName=Flaming
+BodyGlaiveBlock=Guarding Glaive Grip
+BodyGlaiveBlockName=Guarding
+BodyGlaiveDryad=Dryad Glaive Grip
+BodyGlaiveDryadName=Dryad
+
+BodyPistolBasic=Basic Handgun Body
+BodyPistolBasicName=Basic
+BodyPistolMagic=Magic Handgun Body
+BodyPistolMagicName=Magic
+
+BodyShotgunBasic=Basic Shotgun Body
+BodyShotgunBasicName=Basic
+BodyShotgunCharged=Charged Shotgun Body
+BodyShotgunChargedName=Charged
+BodyShotgunLiving=Living Shotgun Body
+BodyShotgunLivingName=Living
+BodyShotgunStuffed=Stuffed Shotgun Body
+BodyShotgunStuffedName=Stuffed
+BodyShotgunDoubleBarrel=Double Barrel Shotgun Body
+BodyShotgunDoubleBarrelName=Double Barrel
+BodyShotgunNaturesWrath=Nature's Wrath Shotgun Body
+BodyShotgunNaturesWrathName=Nature's Wrath
+
+BodyMachinegunBasic=Basic Machinegun Body
+BodyMachinegunBasicName=Basic
+BodyMachinegunRunner=Nimble Machinegun Body
+BodyMachinegunRunnerName=Nimble
+BodyMachinegunRipper=Ripper Machinegun Body
+BodyMachinegunRipperName=Ripper
+BodyMachinegunBurst=Burstfire Machinegun Body
+BodyMachinegunBurstName=Burstfire
+BodyMachinegunEconomic=Economic Machinegun Body
+BodyMachinegunEconomicName=Economic
+BodyMachinegunCrystal=Crystal Machinegun Body
+BodyMachinegunCrystalName=Crystal
+
+ShaftPickaxeWood=Wood Tool Shaft
+ShaftPickaxeWoodName=Wood
+ShaftPickaxeQuartz=Quartz Tool Shaft
+ShaftPickaxeQuartzName=Quartz
+ShaftPickaxeIron=Iron Tool Shaft
+ShaftPickaxeIronName=Iron
+ShaftPickaxeRunestone=Runestone Tool Shaft
+ShaftPickaxeRunestoneName=Runestone
+ShaftPickaxeRefined=Refined Tool Shaft
+ShaftPickaxeRefinedName=Refined
+ShaftPickaxeWeighted=Weighted Tool Shaft
+ShaftPickaxeWeightedName=Weighted
+ShaftPickaxeCrystal=Crystal Tool Shaft
+ShaftPickaxeCrystalName=Crystal
+ShaftPickaxeCelestial=Celestial Tool Shaft
+ShaftPickaxeCelestialName=Celestial
+ShaftPickaxeSlime=Slimeum Tool Shaft
+ShaftPickaxeSlimeName=Slimeum
+ShaftPickaxeStrengthened=Strengthened Tool Shaft
+ShaftPickaxeStrengthenedName=Strengthened
+
+ShaftGlaiveWood=Wooden Glaive Shaft
+ShaftGlaiveWoodName=Wood
+ShaftGlaiveIron=Iron Glaive Shaft
+ShaftGlaiveIronName=Iron
+
+StockPistolIron=Iron Handgun Stock
+StockPistolIronName=Iron
+
+StockShotgunIron=Iron Shotgun Stock
+StockShotgunIronName=Iron
+StockShotgunIvy=Ivy Shotgun Stock
+StockShotgunIvyName=Ivy
+StockShotgunGlacial=Glacial Shotgun Stock
+StockShotgunGlacialName=Glacial
+StockShotgunAmber=Amber Shotgun Stock
+StockShotgunAmberName=Amber
+StockShotgunPrimal=Primal Shotgun Stock
+StockShotgunPrimalName=Primal
+StockShotgunChilled=Chilled Shotgun Stock
+StockShotgunChilledName=Chilled
+StockShotgunEnchanted=Enchanted Shotgun Stock
+StockShotgunEnchantedName=Enchanted
+StockShotgunDark=Dark Shotgun Stock
+StockShotgunDarkName=Dark
+StockShotgunAncient=Ancient Shotgun Stock
+StockShotgunAncientName=Ancient
+
+StockMachinegunIron=Iron Machinegun Stock
+StockMachinegunIronName=Iron
+StockMachinegunVoid=Void Machinegun Stock
+StockMachinegunVoidName=Void
+StockMachinegunHardened=Hardened Machinegun Stock
+StockMachinegunHardenedName=Hardened
+StockMachinegunTempered=Tempered Machinegun Stock
+StockMachinegunTemperedName=Tempered
+
+
+[ui]
+notPart=Not a tool part!
+wrongSlot=Wrong slot!
+gunsmithInstructions=Combine three parts of the same tool or weapon type.
+wepCraftButton=Assemble Tool
+benchOutput=Result
+bonusPartsInstructionsStart=Insert a tool part with a bonus modifier to upgrade, or insert any tool part to add a bonus modifier
+bonusPartsInstructionsSame=Combine three of the same tool parts to create a new part with a random bonus modifier
+bonusPartsInstructionsDifferent=Combine any three tool parts that have a bonus modifier to create a new part with one of the three modifiers
+bonusPartsInstructionsTotals=Combining bonus modifiers increases the size of the bonus
+bonusMergeButton=Combine Parts
+
+[itemtooltip]
+ShotgunPellets=Pellets per shot: <pellets>
+Barrel=Barrel:
+Body=Body:
+Stock=Stock:
+Tip=Tip:
+Primer=Primer:
+Shell=Shell:
+Head=Head:
+Blade=Blade:
+Brace=Brace:
+Grip=Grip:
+Shaft=Shaft:
+holdShift=Hold [input=<shift>] for stats
+holdCtrl=Hold [input=<ctrl>] for parts
+holdparts=Hold [input=<shift>] for parts & stats
+pickaxeAccelerating=[input=mouse2]Accelerate
+pickaxeDowsing=[input=mouse2]Dowse
+AutoUpgradeTip=Automatically upgrades crafted tool to §#8531a8Tier <tier>§#FFFFFF
+AmmoConsumeTip=Has a <useage>% chance to not consume ammo
+toolMobDamage=Attack Damage: <value>
+toolDamageTier=Mining Level: <value>
+gunsmithStationTip=Combines tool parts into completed tools
+partsBenchTip=Used to craft tool parts
+bonusPartStationTip=Combine tool parts to create bonus modifiers
+
+[bullettooltip]
+
+[weapontooltip]
+ShotgunTip=Weapon Type: Shotgun
+MachinegunTip=Weapon Type: Machinegun
+PistolTip=Weapon Type: Handgun
+PickaxeTip=Tool Type: Pickaxe
+GlaiveTip=Weapon Type: Glaive
+ShovelTip=Tool Type: Shovel
+DamageToolTip=Tool Type: Pickaxe, Shovel, Axe
+
+[barreltooltip]
+BarrelTip=§#1b99faPart: Barrel
+HeadTip=§#1b99faPart: Head
+BladeTip=§#1b99faPart: Blade
+
+HeadPickaxeWoodTip=Mining Level: §#f7b3450\n§#FFFFFFObject Damage: §#f7b34550§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34510§#FFFFFF
+HeadPickaxeCopperTip=Mining Level: §#f7b3450\n§#FFFFFFObject Damage: §#f7b34565§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34518§#FFFFFF
+HeadPickaxeIronTip=Mining Level: §#f7b3450\n§#FFFFFFObject Damage: §#f7b34580§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34514§#FFFFFF
+HeadPickaxeGoldTip=Mining Level: §#f7b3450\n§#FFFFFFObject Damage: §#f7b34595§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34510§#FFFFFF
+HeadPickaxeFrostTip=Mining Level: §#f7b3451\n§#FFFFFFObject Damage: §#f7b34595§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34516§#FFFFFF
+HeadPickaxeDemonicTip=Mining Level: §#f7b3452\n§#FFFFFFObject Damage: §#f7b345125§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34520§#FFFFFF
+HeadPickaxeRunicTip=Mining Level: §#f7b3453\n§#FFFFFFObject Damage: §#f7b345140§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34518§#FFFFFF
+HeadPickaxeIvyTip=Mining Level: §#f7b3454\n§#FFFFFFObject Damage: §#f7b345155§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34517§#FFFFFF
+HeadPickaxeQuartzTip=Mining Level: §#f7b3455\n§#FFFFFFObject Damage: §#f7b345170§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34520§#FFFFFF
+HeadPickaxeTungstenTip=Mining Level: §#f7b3456\n§#FFFFFFObject Damage: §#f7b345185§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34520§#FFFFFF
+HeadPickaxeGlacialTip=Mining Level: §#f7b3457\n§#FFFFFFObject Damage: §#f7b345200§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34522§#FFFFFF
+HeadPickaxeDryadTip=Mining Level: §#f7b3458\n§#FFFFFFObject Damage: §#f7b345215§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34524§#FFFFFF
+HeadPickaxeMyceliumTip=Mining Level: §#f7b3459\n§#FFFFFFObject Damage: §#f7b345230§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34522§#FFFFFF
+HeadPickaxeAncientTip=Mining Level: §#f7b34510\n§#FFFFFFObject Damage: §#f7b345245§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34528§#FFFFFF
+HeadPickaxeIceTip=Mining Level: §#f7b34510\n§#FFFFFFObject Damage: §#f7b345225§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34526§#FFFFFF\n§#00B715+1§#FFFFFF Range
+HeadPickaxeMagmaTip=Mining Level: §#f7b34510\n§#FFFFFFObject Damage: §#f7b345205§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34534§#FFFFFF\n§#FF6100Ignites§#FFFFFF target on hit.\nTargets §#FF6100on fire§#FFFFFF take increased damage.
+HeadPickaxeCrystalTip=Mining Level: §#f7b34510\n§#FFFFFFObject Damage: §#f7b345275§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34524§#FFFFFF
+HeadPickaxePlanetaryTip=Mining Level: §#f7b34511\n§#FFFFFFObject Damage: §#f7b345300§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34530§#FFFFFF
+
+HeadShovelWoodTip=Mining Level: §#f7b3450\n§#FFFFFFObject Damage: §#f7b34550§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b3453§#FFFFFF
+HeadShovelCopperTip=Mining Level: §#f7b3450\n§#FFFFFFObject Damage: §#f7b34565§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34512§#FFFFFF
+HeadShovelIronTip=Mining Level: §#f7b3450\n§#FFFFFFObject Damage: §#f7b34580§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b3456§#FFFFFF
+HeadShovelGoldTip=Mining Level: §#f7b3450\n§#FFFFFFObject Damage: §#f7b34595§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b3454§#FFFFFF
+HeadShovelFrostTip=Mining Level: §#f7b3451\n§#FFFFFFObject Damage: §#f7b34595§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b3458§#FFFFFF
+HeadShovelDemonicTip=Mining Level: §#f7b3452\n§#FFFFFFObject Damage: §#f7b345125§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34510§#FFFFFF
+HeadShovelRunicTip=Mining Level: §#f7b3453\n§#FFFFFFObject Damage: §#f7b345140§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34511§#FFFFFF
+HeadShovelIvyTip=Mining Level: §#f7b3454\n§#FFFFFFObject Damage: §#f7b345155§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34512§#FFFFFF
+HeadShovelQuartzTip=Mining Level: §#f7b3455\n§#FFFFFFObject Damage: §#f7b345170§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34513§#FFFFFF
+HeadShovelTungstenTip=Mining Level: §#f7b3456\n§#FFFFFFObject Damage: §#f7b345185§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34514§#FFFFFF
+HeadShovelGlacialTip=Mining Level: §#f7b3457\n§#FFFFFFObject Damage: §#f7b345200§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34515§#FFFFFF
+HeadShovelDryadTip=Mining Level: §#f7b3458\n§#FFFFFFObject Damage: §#f7b345215§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34517§#FFFFFF
+HeadShovelMyceliumTip=Mining Level: §#f7b3459\n§#FFFFFFObject Damage: §#f7b345230§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34516§#FFFFFF
+HeadShovelAncientTip=Mining Level: §#f7b34510\n§#FFFFFFObject Damage: §#f7b345245§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34519§#FFFFFF
+HeadShovelIceTip=Mining Level: §#f7b34510\n§#FFFFFFObject Damage: §#f7b345225§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34522§#FFFFFF\n§#00B715+1§#FFFFFF Range
+HeadShovelMagmaTip=Mining Level: §#f7b34510\n§#FFFFFFObject Damage: §#f7b345205§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34527§#FFFFFF\n§#FF6100Ignites§#FFFFFF target on hit.\nTargets §#FF6100on fire§#FFFFFF take increased damage.
+HeadShovelCrystalTip=Mining Level: §#f7b34510\n§#FFFFFFObject Damage: §#f7b345275§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34520§#FFFFFF
+HeadShovelPlanetaryTip=Mining Level: §#f7b34511\n§#FFFFFFObject Damage: §#f7b345300§#FFFFFF\n§#FFFFFFAttack Damage: §#f7b34525§#FFFFFF
+
+HeadGlaiveWoodTip=Damage: §#f7b34514\n§#00B715+20%§#FFFFFF Attack Speed
+HeadGlaiveIronTip=Damage: §#f7b34516\n§#00B715+20%§#FFFFFF Knockback\n§#FF0000-10%§#FFFFFF Attack Speed
+HeadGlaiveGoldTip=Damage: §#f7b34520
+
+HeadGlaiveFrostTip=Damage: §#f7b34522\n§#00B715+10%§#FFFFFF Crit Chance\n§#FF0000-12%§#FFFFFF Damage
+HeadGlaiveRunestoneTip=Damage: §#f7b34530
+HeadGlaiveIvyTip=Damage: §#f7b34534\n§#00B715+15%§#FFFFFF Attack Range\n§#FF0000-10%§#FFFFFF Crit Chance
+HeadGlaiveQuartzTip=Damage: §#f7b34539\n§#00B715-14%§#FFFFFF Movement Speed Penalty\n§#FF0000-30%§#FFFFFF Knockback
+
+HeadGlaiveTungstenTip=Damage: §#f7b34547
+HeadGlaiveCryoTip=Damage: §#f7b34551\n§#00B715+20%§#FFFFFF Crit Damage\n§#FF0000-10%§#FFFFFF Damage
+HeadGlaiveMyceliumTip=Damage: §#f7b34559\n§#00B715+25%§#FFFFFF Knockback
+
+HeadGlaiveSlimeTip=Damage: §#f7b34565\n§#00B715+20%§#FFFFFF Attack Speed
+HeadGlaiveSpiderTip=Damage: §#f7b34568\n§#00B715+26%§#FFFFFF Attack Range
+HeadGlaiveCrystalTip=Damage: §#f7b34570\n§#00B715+1§#FFFFFF Resistance on hit\n§#FF0000-12%§#FFFFFF Attack Range
+
+
+
+BarrelShotgunIronTip=Basic Barrel, no extra modifiers
+BarrelShotgunCopperTip=§#00B715+12%§#FFFFFF Damage\n§#FF0000+27%§#FFFFFF Pellet Spread
+BarrelShotgunGoldTip=§#00B715-50%§#FFFFFF Pellet Spread\n§#00B715+50%§#FFFFFF Range\n§#FF0000-16%§#FFFFFF Damage
+BarrelShotgunVoidTip=Void Bullets deal full damage\n§#00B715+20%§#FFFFFF Range
+BarrelShotgunNaturalTip=§#00B715-70%§#FFFFFF Pellet Spread\n§#00B715+70%§#FFFFFF Projectile Speed\n§#FF0000-1§#FFFFFF Pellet
+BarrelShotgunCrystalizedTip=§#00B715+25%§#FFFFFF Range\n§#00B715+50%§#FFFFFF Projectile Speed\n§#00B715-30%§#FFFFFF Pellet Spread\n§#FF0000No Knockback
+BarrelShotgunShadowTip=§#00B715+50%§#FFFFFF Damage\n§#FF0000+130%§#FFFFFF Pellet Spread\n§#FF0000-50%§#FFFFFF Range
+BarrelShotgunPoweredTip=§#00B715+26%§#FFFFFF Damage\n§#00B715x4§#FFFFFF Knockback\n§#FF0000-22%§#FFFFFF Attack Speed
+
+BarrelMachinegunIronTip=Basic Barrel, no extra modifiers
+BarrelMachinegunCopperTip=§#00B715+7%§#FFFFFF Damage\n§#FF0000+17%§#FFFFFF Spread
+BarrelMachinegunGoldTip=§#00B715-12%§#FFFFFF Spread\n§#00B715+20%§#FFFFFF Range\n§#FF0000-10%§#FFFFFF Damage
+BarrelMachinegunIvyTip=§#00B715-20%§#FFFFFF Spread\n§#00B715+25%§#FFFFFF Range\n§#FF0000-15%§#FFFFFF Damage
+BarrelMachinegunLightTip=§#00B715-15%§#FFFFFF Movement Speed Penalty\n§#FF0000-15%§#FFFFFF Damage
+BarrelMachinegunHeavyTip=§#00B715+45%§#FFFFFF Damage\n§#FF0000+23%§#FFFFFF Movement Speed Penalty
+BarrelMachinegunLooseTip=§#00B715+17%§#FFFFFF Attack Speed\n§#FF0000-15%§#FFFFFF Damage
+
+BarrelShotgunDemonicTip=§#00B715+10%§#FFFFFF Damage\n§#FF0000-15%§#FFFFFF Attack Speed
+BarrelShotgunQuartzTip=§#FF0000-40%§#FFFFFF Range\n§#§#00B715+25%§#FFFFFF chance to not consume ammo
+BarrelShotgunFrozenTip=§#FF0000-15%§#FFFFFF Damage\n§#FF0000+15%§#FFFFFF Attack Speed
+BarrelShotgunTungstenTip=§#00B715+15%§#FFFFFF Damage
+BarrelShotgunAncientTip=§#00B715+30%§#FFFFFF Damage\n§#FF0000+63%§#FFFFFF Pellet Spread
+BarrelShotgunGlacialTip=§#FF0000-15%§#FFFFFF Damage\n§#FF0000+20%§#FFFFFF Attack Speed
+BarrelShotgunRubyTip=§#FF0000-37%§#FFFFFF Damage\n§#00B715+1§#FFFFFF piercing
+BarrelShotgunSapphireTip=§#FF0000-80%§#FFFFFF Damage\n§#00B7153§#FFFFFF resilience on hit
+BarrelShotgunEmeraldTip=§#FF0000-30%§#FFFFFF Damage\n§#00B715+1§#FFFFFF pellet
+BarrelShotgunSpideriteTip=§#00B715+50%§#FFFFFF Range\n§#§#00B715+50%§#FFFFFF Projectile Speed
+BarrelShotgunNightsteelTip=§#FF0000-14%§#FFFFFF Damage\n§#00B715-120%§#FFFFFF Pellet Spread
+BarrelShotgunCryoTip=§#FF0000-20%§#FFFFFF Damage\n§#FF0000+25%§#FFFFFF Attack Speed
+
+BarrelPistolIronTip=Basic Barrel, no extra modifiers
+BarrelPistolGildedTip=§#00B715+20%§#FFFFFF Projectile Speed\n§#00B715-12%§#FFFFFF Movement Speed Penalty\n§#FF0000-14%§#FFFFFF Damage
+
+[bodytooltip]
+BodyTip=§#1b99faPart: Body
+BraceTip=§#1b99faPart: Brace
+GripTip=§#1b99faPart: Grip
+
+BodyPickaxeBasicTip=Basic Brace, no extra modifiers
+BodyPickaxeBattleTip=§#00B715+15%§#FFFFFF Attack Speed\n§#00B715+85%§#FFFFFF Attack Damage\n§#FF0000-50%§#FFFFFF Object Damage
+BodyPickaxeVeinTip=§#00B715Mine entire ore veins at once§#FFFFFF\n§#FF0000-1§#FFFFFF Mining Level\n§#FF0000-10%§#FFFFFF Attack Speed\n§#FF0000-15%§#FFFFFF Object Damage
+BodyPickaxeDowsingTip=[input=mouse2]Points towards nearby ores\nAdds a stack of exhaustion on use
+BodyPickaxeAcceleratingTip=Adds a stack of acceleration on mining an object\n[input=mouse2]Consume all stacks to temporarily boost mining power\nStacks degrade over time\n§#FF0000-10%§#FFFFFF Attack Speed
+BodyPickaxeMiniTip=§#00B715+147%§#FFFFFF Attack Speed\n§#FF0000-65%§#FFFFFF Attack Range\n§#FF0000-50%§#FFFFFF Attack Damage\n§#FF0000-50%§#FFFFFF Object Damage\n§#FF0000-2§#FFFFFF Tool Range
+
+BodyShovelBasicTip=Basic Brace, no extra modifiers
+BodyShovelBucketTip=[input=mouse2]Bucket up liquid tiles\n[input=mouse2]in inventory to open.\nWill pick up liquids using buckets stored in the tool's internal inventory.\n§#FF0000-1§#FFFFFF Tool Range\n§#FF0000-20%§#FFFFFF Attack Range
+BodyShovelBlockTip=§#00B715Reflects projectiles on contact§#FFFFFF\n§#00B715+30%§#FFFFFF Attack Speed\n§#00B715+35%§#FFFFFF Attack Damage\n§#FF0000-50%§#FFFFFF Object Damage\n§#FF0000-2§#FFFFFF Tool Range
+BodyShovelGrassTip=[input=mouse2]in inventory to open\nCan pick up grass tiles using landfill stored in the tool's internal inventory\n§#FF0000-1§#FFFFFF Tool Range\n§#FF0000-20%§#FFFFFF Attack Range
+
+BodyGlaiveBasicTip=Basic Grip, no extra modifiers
+BodyGlaiveFireTip=Projects a ring of §#FF6100fire§#FFFFFF while attacking\nTargets §#FF6100on fire§#FFFFFF take increased damage.
+BodyGlaiveBlockTip=Can block up to §#00B7153§#FFFFFF projectiles while attacking\n5 second cooldown per block\n§#00B715+70%§#FFFFFF Attack Speed\n§#FF0000-60%§#FFFFFF Damage
+BodyGlaiveDryadTip=[input=mouse2]Focus a mob\nWhile attacking, each hit adds §#00B715+2%§#FFFFFF Attack Speed and Attack Movement Speed on hit, up to §#00B715+100%§#FFFFFF.\n\n§#1EB18FApplies 1 Dryad Haunted to hit targets. Once stacked to 10 it summons a dryad spirit that immobilizes enemies for a short time§#FFFFFF
+
+BodyShotgunBasicTip=Basic Body, no extra modifiers
+BodyShotgunLivingTip=Shoots a piercing leaf on attack\n§#FF0000-1§#FFFFFF Pellet\n§#FF0000-16%§#FFFFFF Damage
+BodyShotgunDoubleBarrelTip=[input=mouse2] to fire both barrels at once\n§#00B715+10%§#FFFFFF Attack Speed\n§#FF0000+60%§#FFFFFF Pellet Spread\n§#FF0000-25%§#FFFFFF Range\n§#FF0000-15%§#FFFFFF Damage
+BodyShotgunChargedTip=§#00B715x2.5§#FFFFFF Attack Speed\n§#FF0000-65%§#FFFFFF Damage
+BodyShotgunStuffedTip=§#00B715+3§#FFFFFF Pellets\n§#FF0000-40%§#FFFFFF Attack Speed
+BodyShotgunNaturesWrathTip=§#f7b34530§#FFFFFF% chance to §#eb8e42burn§#FFFFFF, §#83d437poison§#FFFFFF, or §#6298f0chill§#FFFFFF a target\n§#FF0000-15%§#FFFFFF Damage
+
+BodyPistolBasicTip=Basic Body\nNo extra modifiers
+BodyPistolMagicTip=Converts weapon type to §#c956eeMagic§#FFFFFF\nConsumes §#0bc9dfmana§#FFFFFF equal to §#f7b3455§#FFFFFF + §#f7b3455%§#FFFFFF of weapon damage\n§#c956eeA WIZ-TAC special!§#FFFFFF
+BodyPistolCryoTip=Adds an ability to freeze mobs in place
+BodyPistolSapphireTip=Can charge up to fire a more powerful shot
+BodyPistolWebbedTip=Basic Body\nNo extra modifiers
+BodyPistolFlintlockTip=Basic Body\nNo extra modifiers
+BodyPistolRevolverTip=Shoots in bursts of 6 rounds
+
+BodyMachinegunBasicTip=Basic Body\nNo extra modifiers
+BodyMachinegunRipperTip=Attack speed increases while firing\n§#00B715-25%§#FFFFFF Ammo Consumption Chance\n§#FF0000+38%§#FFFFFF Spread
+BodyMachinegunRunnerTip=§#00B715No movement speed penalty\n§#FF0000x2.5§#FFFFFF Spread\n§#FF0000-35%§#FFFFFF Range
+BodyMachinegunBurstTip=Shoots in 3-round bursts\nCan only consume 1 ammo per-burst\n§#00B715+50%§#FFFFFF Attack Speed\n§#FF0000-14%§#FFFFFF Damage
+BodyMachinegunEconomicTip=§#00B715-40%§#FFFFFF Ammo Consumption Chance\n§#FF000011%§#FFFFFF of a misfire
+BodyMachinegunCrystalTip=§#00B715Build up explosive crystals on hit§#FFFFFF\n§#FF0000+25%§#FFFFFF Ammo Consumption Chance
+
+BodyLeverActionBasicTip1=Basic Body\nNo extra modifiers
+BodySniperBasicTip1=Gains a scope\n§#FF0000-30%§#FFFFFF Firing Speed
+BodyAWPBasicTip1=
+BodyAntiqueBasicTip1=Adds an ability for a penetrating shot\n§#FF0000-15%§#FFFFFF Damage
+
+[stocktooltip]
+StockTip=§#1b99faPart: Stock
+ShaftTip=§#1b99faPart: Shaft
+
+ShaftPickaxeWoodTip=Attack Speed: §#f7b3452§#FFFFFF
+ShaftPickaxeRunestoneTip=Attack Speed: §#f7b3452.2§#FFFFFF
+ShaftPickaxeQuartzTip=Attack Speed: §#f7b3452§#FFFFFF\n§#00B715+20%§#FFFFFF Attack Damage
+ShaftPickaxeIronTip=Attack Speed: §#f7b3452§#FFFFFF\n§#00B715+15%§#FFFFFF Tool Damage
+ShaftPickaxeWeightedTip=Attack Speed: §#f7b3452.2§#FFFFFF\n§#00B715+50%§#FFFFFF Knockback
+ShaftPickaxeStrengthenedTip=Attack Speed: §#f7b3452.2§#FFFFFF\n§#00B715+20%§#FFFFFF Attack Range
+ShaftPickaxeRefinedTip=Attack Speed: §#f7b3452.5§#FFFFFF
+ShaftPickaxeCelestialTip=Attack Speed: §#f7b3453§#FFFFFF
+ShaftPickaxeSlimeTip=Attack Speed: §#f7b3452.5§#FFFFFF\n§#00B715+1§#FFFFFF Mining Range
+ShaftPickaxeCrystalTip=Attack Speed: §#f7b3452.5§#FFFFFF\n§#00B715+30%§#FFFFFF Crit Chance
+
+ShaftGlaiveWoodTip=Attack Speed: §#f7b3452§#FFFFFF
+ShaftGlaiveIvyTip=Attack Speed: §#f7b3451.8§#FFFFFF\n§#00B715+20%§#FFFFFF Damage
+ShaftGlaiveRunestoneTip=Attack Speed: §#f7b3451.8§#FFFFFF\n§#00B715+15%§#FFFFFF Attack Range
+
+ShaftGlaiveTungstenTip=Attack Speed: §#f7b3452.2§#FFFFFF
+ShaftGlaiveDryadTip=Attack Speed: §#f7b3452§#FFFFFF\n§#00B715+20%§#FFFFFF Knockback
+ShaftGlaiveAncientTip=Attack Speed: §#f7b3452§#FFFFFF\n§#00B715+10%§#FFFFFF Crit Chance & Damage
+
+ShaftGlaiveShadowTip=Attack Speed: §#f7b3452.5§#FFFFFF
+ShaftGlaiveSpiderTip=Attack Speed: §#f7b3452.2§#FFFFFF\n§#00B715-18%§#FFFFFF Movement Speed Penalty
+ShaftGlaivePrimalTip=Attack Speed: §#f7b3452.2§#FFFFFF\n§#00B715+1§#FFFFFF Resilience on hit
+
+StockShotgunIronTip=Damage: §#f7b34516\n§#FFFFFFAttack Speed: §#f7b3451.3\n§#FFFFFFPellets: §#f7b3454
+StockShotgunChilledTip=Damage: §#f7b34512\n§#FFFFFFAttack Speed: §#f7b3451.3\n§#FFFFFFPellets: §#f7b3454\n§#00B715+30%§#FFFFFF Projectile Speed
+StockShotgunIvyTip=Damage: §#f7b34532\n§#FFFFFFAttack Speed: §#f7b3451\n§#FFFFFFPellets: §#f7b3454
+StockShotgunEnchantedTip=Damage: §#f7b34529\n§#FFFFFFAttack Speed: §#f7b3451\n§#FFFFFFPellets: §#f7b3454\n§#00B715-25%§#FFFFFF Spread
+StockShotgunGlacialTip=Damage: §#f7b34542\n§#FFFFFFAttack Speed: §#f7b3451.1\n§#FFFFFFPellets: §#f7b3455
+StockShotgunDarkTip=Damage: §#f7b34537\n§#FFFFFFAttack Speed: §#f7b3451.1\n§#FFFFFFPellets: §#f7b3455\n§#00B715+50%§#FFFFFF Knockback
+StockShotgunAmberTip=Damage: §#f7b34527\n§#FFFFFFAttack Speed: §#f7b3451.7\n§#FFFFFFPellets: §#f7b3455
+StockShotgunAncientTip=Damage: §#f7b34536\n§#FFFFFFAttack Speed: §#f7b3451.7\n§#FFFFFFPellets: §#f7b3454
+StockShotgunPrimalTip=Damage: §#f7b34560\n§#FFFFFFAttack Speed: §#f7b3451.2\n§#FFFFFFPellets: §#f7b3453
+
+StockMachinegunIronTip=Damage: §#f7b34512\n§#FFFFFFAttack Speed: §#f7b3455§#FFFFFF
+StockMachinegunVoidTip=Damage: §#f7b3456\n§#FFFFFFAttack Speed: §#f7b3458.5§#FFFFFF
+StockMachinegunHardenedTip=Damage: §#f7b34522\n§#FFFFFFAttack Speed: §#f7b3454.3§#FFFFFF
+StockMachinegunTemperedTip=Damage: §#f7b34522\n§#FFFFFFAttack Speed: §#f7b3454.3§#FFFFFF
+
+StockPistolIronTip=Damage: §#f7b34517\n§#FFFFFFAttack Speed: §#f7b3452.5§#FFFFFF
+
+
+[toolabilitytip]
+ShotgunDoubleBarrelTip=[input=mouse2]Super Shot
+BodyGlaiveDryadTip=[input=mouse2]Focus a mob
+
+[bullettooltip]
+HeadTip=§#1b99faPart: Tip
+BodyTip=§#1b99faPart: Primer
+EndTip=§#1b99faPart: Shell
+
+DebugHeadTip=Damage: §#f7b34520§#FFFFFF
+DebugBodyTip=Damage: §#00B715+50%§#FFFFFF
+DebugEndTip=Knockback: §#00B715+200§#FFFFFF
+
+[bonusmodtip]
+Random=§#07BFE8+???% Bonus Modifier
+BonusCritChance=§<color><unit><value>% Crit Chance
+BonusCritDamage=§<color><unit><value>% Crit Damage
+BonusAttackRange=§<color><unit><value> Attack Range
+BonusAttackRangeMod=§<color><unit><value>% Attack Range
+BonusKnockback=§<color><unit><value> Knockback
+BonusKnockbackMod=§<color><unit><value>% Knockback
+BonusPower=§<color><unit><value> Tool Damage
+BonusPowerMod=§<color><unit><value>% Tool Damage
+BonusAttackSpeed=§<color><unit><value>% Attack Speed
+BonusAttackSpeedMod=§<color><unit><value>% Attack Speed
+BonusDamage=§<color><unit><value> Attack Damage
+BonusDamageMod=§<color><unit><value>% Attack Damage
+BonusMoveSpeed=§<color>-<value>% Move Speed Reduction
+BonusRange=§<color><unit><value> Tool Range
+BonusRangeMod=§<color><unit><value>% Tool Range
+BonusArmorPen=§<color><unit><value> Armor Penetration
+BonusLifeSteal=§<color><unit><value> Life Steal on hit
+BonusLifeStealMod=§<color><unit><value>% Life Steal on hit
+BonusManaCost=§<color><unit><value> Mana Cost
+BonusManaCostMod=§<color><unit><value>% Mana Cost
+BonusLifeCost=§<color><unit><value> Life Cost
+BonusLifeCostMod=§<color><unit><value>% Life Cost
+BonusResilienceAdd=§<color><unit><value> Resilience on hit
+BonusResilienceMod=§<color><unit><value>% Resilience on hit
+BonusPellets=§<color><unit><value> Extra Pellets
+BonusSpreadMod=§<color><unit><value>% Projectile Spread
+BonusVelocity=§<color><unit><value> Projectile Speed
+BonusVelocityMod=§<color><unit><value>% Projectile Speed
+BonusAmmoUseAdd=§<color><value> Chance to not consume ammo
+
+[tech]
+GUNCRAFTING=Loading Bench
+
+[loottooltip]
+HeadPickaxePlanetary=§#F76445Possible rare reward from incursions
+
+[flavortooltip]
+HeadPickaxePlanetary=§#ECC581The Sun's bright furry§#FFFFFF\n§#A0B6D6and the Moon's eternal grace§#FFFFFF\nshall cleave through the earth
+
+[buff]
+DowsingPickaxeCooldown=Bewitched Exhaustion
+DowsingPickaxeCooldownTip=§#FF00005% §#FFFFFFmining slowdown & move speed per stack
+DowsingPickaxeCooldownTip2=Currently: §#FF0000<value>%§#FFFFFF
+AccelerationPickaxeStacks=Accelerating Brace Stacks
+AccelerationPickaxeStacksTip=§#00B715+0.5%§#FFFFFF Mining Speed & Power per stack consumed
+AccelerationPickaxeStacksTip2=On activation: §#00B715+<value>%§#FFFFFF
+AccelerationPickaxeBuff=Accelerating Brace Boost
+AccelerationPickaxeBuffTip=§#00B715<value>%§#FFFFFF Mining Speed & Power
+GlaiveBlockingStacks=Glaive Blocked Projectile
+GlaiveBlockingStacksTip=Can block <value> more projectiles
+GlaiveDryadStacks=Dryad Glaive Grip
+
+[settingsui]
+craftingSection=Crafting Settings
+allowBonusInCrafting=Allow parts with bonuses to be used in crafting
+allowBonusInCraftingtext=The bonus will be removed from the part when used in crafting
+colorSection=Color Settings
+bonusColor=Bonus Modifier Color
+bonusMaxColor=Maximum Bonus Modifier Color
+controlSection=Controls Settings
+controlSectiontext=Corresponds to controls set in "Key Modifiers" in vanilla settings
+viewStats=Tooltip Stats Key
+viewStatstext=Tooltip View Stats Key
+viewParts=Tooltip Parts Key
+viewPartstext=Tooltip View Parts Key
+invquickmove=Quick Move
+invtrash=Quick Trash
+invdrop=Quick Drop
+invlock=Toggle Slot Locked
