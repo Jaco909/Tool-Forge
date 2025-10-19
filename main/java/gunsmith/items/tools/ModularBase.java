@@ -212,6 +212,8 @@ public class ModularBase {
                     return new GameDamage(type, (((barrelItem.getGndData().getFloat("HeadDamageUpgrade" + item.item.getUpgradeLevel(item) / 100, 16F) + damage-barrelItem.getGndData().getFloat("attackDamage", 0F)) * damageModBase))*damageBonusMod, armorPen, critChance);
                 } else {
                     float upgMod = (barrelItem.getGndData().getFloat("HeadDamageUpgrade10", 66F) - barrelItem.getGndData().getFloat("HeadDamageUpgrade1", 50F))/9;
+                    GameLog.debug.println(upgMod);
+                    GameLog.debug.println(item.item.getUpgradeTier(item));
                     return new GameDamage(type, ((((barrelItem.getGndData().getFloat("HeadDamageUpgrade1", 50F) + (upgMod * (item.item.getUpgradeTier(item) - 1))) + damage-barrelItem.getGndData().getFloat("attackDamage", 0F)) * damageModBase))*damageBonusMod, armorPen, critChance);
                 }
             } else {
@@ -401,16 +403,15 @@ public class ModularBase {
 
         float toolDamage =  bonus + bodyItem.getGndData().getFloat("toolDpsFlat", 0F) + stockItem.getGndData().getFloat("toolDpsFlat", 0F);
         float toolDamageMod = bonusMod + barrelItem.getGndData().getFloat("toolDpsMod", 0F) + bodyItem.getGndData().getFloat("toolDpsMod", 0F) + stockItem.getGndData().getFloat("toolDpsMod", 0F);
-
         if (item.item.getUpgradeTier(item) > 0) {
             if ((barrelItem.getGndData().hasKey("HeadDPSUpgrade" + item.item.getUpgradeLevel(item)/100))) {
-                return Math.round((barrelItem.getGndData().getFloat("HeadDPSUpgrade" + item.item.getUpgradeLevel(item)/100, 16F) + toolDamage * toolDamageMod));
+                return Math.round((barrelItem.getGndData().getFloat("HeadDPSUpgrade" + item.item.getUpgradeLevel(item)/100, 16F) + toolDamage) * toolDamageMod);
             } else {
-                float upgMod = (stockItem.getGndData().getFloat("HeadDPSUpgrade10",588F)-stockItem.getGndData().getFloat("HeadDPSUpgrade1",210F))/9;
-                return Math.round(((barrelItem.getGndData().getFloat("HeadDPSUpgrade1" + item.item.getUpgradeLevel(item)/100, 210F)+(upgMod*(item.item.getUpgradeTier(item)-1)))  + toolDamage * toolDamageMod));
+                float upgMod = (barrelItem.getGndData().getFloat("HeadDPSUpgrade10",588F)-barrelItem.getGndData().getFloat("HeadDPSUpgrade1",210F))/10;
+                return Math.round(((barrelItem.getGndData().getFloat("HeadDPSUpgrade1", 210F)+(upgMod*(item.item.getUpgradeTier(item)-1)))  + toolDamage) * toolDamageMod);
             }
         } else {
-            return Math.round(((barrelItem.getGndData().getInt("toolDpsFlat", 0) + toolDamage) * toolDamageMod));
+            return Math.round((barrelItem.getGndData().getInt("toolDpsFlat", 0) + toolDamage) * toolDamageMod);
         }
     }
 
