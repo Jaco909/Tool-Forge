@@ -25,7 +25,7 @@ public class VeinminerPatch {
     @Advice.OnMethodExit()
     static void onExit(@Advice.This GameObject gameObject, @Advice.Argument(0) Level level, @Advice.Argument(1) int layerID, @Advice.Argument(2) int x, @Advice.Argument(3) int y, @Advice.Argument(4) Attacker attacker, @Advice.Argument(5) ServerClient client) {
         if (level.isServer()) {
-            if (attacker != null) {
+            if (attacker != null && client != null) {
                 if (attacker.getAttackOwner() instanceof PlayerMob) {
                     if (ItemRegistry.getItem(client.playerMob.getSelectedItem().getGndData().getString("BodyItem", "BodyPickaxeBasic")).getDefaultItem(client.playerMob, 1).getGndData().getString("BodyName", "Basic").equalsIgnoreCase("VeinMine")) {
                         if (gameObject instanceof RockOreObject) {

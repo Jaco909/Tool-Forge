@@ -23,7 +23,7 @@ public class AccelationPickPatch {
     @Advice.OnMethodExit()
     static void onExit(@Advice.This GameObject gameObject, @Advice.Argument(0) Level level, @Advice.Argument(1) int layerID, @Advice.Argument(2) int x, @Advice.Argument(3) int y, @Advice.Argument(4) Attacker attacker, @Advice.Argument(5) ServerClient client) {
         if (level.isServer()) {
-            if (attacker != null) {
+            if (attacker != null && client != null) {
                 if (attacker.getAttackOwner() instanceof PlayerMob) {
                     if (((PlayerMob) attacker.getAttackOwner()).getSelectedItem().getGndData().getString("BodyItem", "BodyPickaxeBasic").equalsIgnoreCase("BodyPickaxeAccelerating")) {
                         if (!attacker.getAttackOwner().buffManager.hasBuff(BuffRegistry.getBuff("AccelerationPickaxeBuff"))) {
