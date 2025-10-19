@@ -41,8 +41,8 @@ public class BurstFireAttackHandler extends MouseAngleAttackHandler {
         this.toolItem = toolItem;
         this.shotsInitial = shotsInitial;
         this.shotsRemaining = shotsInitial;
-        this.timeBetweenReloads = reloadTime - Math.round(toolItem.getUpgradeTier(item)*100);
-        this.timeBetweenBurstShots = shotTime - Math.round(toolItem.getUpgradeTier(item)*8);
+        this.timeBetweenReloads = reloadTime - Math.round(Math.min(toolItem.getUpgradeTier(item),5)*100);
+        this.timeBetweenBurstShots = shotTime - Math.round(Math.min(toolItem.getUpgradeTier(item),5)*8);
     }
 
     public void onUpdate() {

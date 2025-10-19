@@ -211,7 +211,7 @@ public class ModularBase {
                 if ((barrelItem.getGndData().hasKey("HeadDamageUpgrade" + item.item.getUpgradeLevel(item) / 100))) {
                     return new GameDamage(type, (((barrelItem.getGndData().getFloat("HeadDamageUpgrade" + item.item.getUpgradeLevel(item) / 100, 16F) + damage-barrelItem.getGndData().getFloat("attackDamage", 0F)) * damageModBase))*damageBonusMod, armorPen, critChance);
                 } else {
-                    float upgMod = (barrelItem.getGndData().getFloat("HeadDamageUpgrade10", 66F) - barrelItem.getGndData().getFloat("HeadDamageUpgrade1", 50F)) / 4;
+                    float upgMod = (barrelItem.getGndData().getFloat("HeadDamageUpgrade10", 66F) - barrelItem.getGndData().getFloat("HeadDamageUpgrade1", 50F))/9;
                     return new GameDamage(type, ((((barrelItem.getGndData().getFloat("HeadDamageUpgrade1", 50F) + (upgMod * (item.item.getUpgradeTier(item) - 1))) + damage-barrelItem.getGndData().getFloat("attackDamage", 0F)) * damageModBase))*damageBonusMod, armorPen, critChance);
                 }
             } else {
@@ -222,7 +222,7 @@ public class ModularBase {
                 if ((bodyItem.getGndData().hasKey("BodyDamageUpgrade" + item.item.getUpgradeLevel(item)/100))) {
                     return new GameDamage(type, (((bodyItem.getGndData().getFloat("BodyDamageUpgrade" + item.item.getUpgradeLevel(item)/100, 16F) + damage-bodyItem.getGndData().getFloat("attackDamage", 0F)) * damageModBase))*damageBonusMod, armorPen, critChance);
                 } else {
-                    float upgMod = (bodyItem.getGndData().getFloat("BodyDamageUpgrade5",66F)-bodyItem.getGndData().getFloat("BodyDamageUpgrade1",50F))/4;
+                    float upgMod = (bodyItem.getGndData().getFloat("BodyDamageUpgrade5",66F)-bodyItem.getGndData().getFloat("BodyDamageUpgrade1",50F))/9;
                     return new GameDamage(type, ((((bodyItem.getGndData().getFloat("BodyDamageUpgrade1", 50F)+(upgMod*(item.item.getUpgradeTier(item)-1))) + damage-bodyItem.getGndData().getFloat("attackDamage", 0F)) * damageModBase))*damageBonusMod, armorPen, critChance);
                 }
             } else {
@@ -233,7 +233,7 @@ public class ModularBase {
                 if ((stockItem.getGndData().hasKey("StockDamageUpgrade" + item.item.getUpgradeLevel(item)/100))) {
                     return new GameDamage(type, (((stockItem.getGndData().getFloat("StockDamageUpgrade" + item.item.getUpgradeLevel(item)/100, 16F) + damage-stockItem.getGndData().getFloat("attackDamage", 0F)) * damageModBase))*damageBonusMod, armorPen, critChance);
                 } else {
-                    float upgMod = (stockItem.getGndData().getFloat("StockDamageUpgrade10",66F)-stockItem.getGndData().getFloat("StockDamageUpgrade1",50F))/4;
+                    float upgMod = (stockItem.getGndData().getFloat("StockDamageUpgrade10",66F)-stockItem.getGndData().getFloat("StockDamageUpgrade1",50F))/9;
                     return new GameDamage(type, ((((stockItem.getGndData().getFloat("StockDamageUpgrade1", 50F)+(upgMod*(item.item.getUpgradeTier(item)-1))) + damage-stockItem.getGndData().getFloat("attackDamage", 0F)) * damageModBase))*damageBonusMod, armorPen, critChance);
                 }
             } else {
@@ -406,7 +406,7 @@ public class ModularBase {
             if ((barrelItem.getGndData().hasKey("HeadDPSUpgrade" + item.item.getUpgradeLevel(item)/100))) {
                 return Math.round((barrelItem.getGndData().getFloat("HeadDPSUpgrade" + item.item.getUpgradeLevel(item)/100, 16F) + toolDamage * toolDamageMod));
             } else {
-                float upgMod = (stockItem.getGndData().getFloat("HeadDPSUpgrade10",588F)-stockItem.getGndData().getFloat("HeadDPSUpgrade1",210F))/4;
+                float upgMod = (stockItem.getGndData().getFloat("HeadDPSUpgrade10",588F)-stockItem.getGndData().getFloat("HeadDPSUpgrade1",210F))/9;
                 return Math.round(((barrelItem.getGndData().getFloat("HeadDPSUpgrade1" + item.item.getUpgradeLevel(item)/100, 210F)+(upgMod*(item.item.getUpgradeTier(item)-1)))  + toolDamage * toolDamageMod));
             }
         } else {
