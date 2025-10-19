@@ -12,7 +12,7 @@ public class StockPistol extends MatItem {
 
     public StockPistol() {
         super(1, Rarity.COMMON);
-        this.setItemCategory(new String[]{"pistolStock"});
+        this.setItemCategory(new String[]{"parts", "pistol", "pistolStock"});
         this.setItemCategory(ItemCategory.craftingManager, new String[]{"pistolStock"});
     }
 

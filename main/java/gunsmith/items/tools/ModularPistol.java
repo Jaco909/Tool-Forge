@@ -52,6 +52,7 @@ public class ModularPistol extends ModularGun implements ItemInteractAction {
         this.attackDamage.setBaseValue(0.0F).setUpgradedValue(5,0f);
         this.attackRange.setBaseValue(820);
         this.velocity.setBaseValue(320);
+        this.setItemCategory(new String[]{"TF", "pistol"});
     }
     public InventoryItem defaultBarrel(InventoryItem item){
         InventoryItem defaultItem = ItemRegistry.getItem(item.getGndData().getString("BarrelItem","BarrelPistolIron")).getDefaultItem(null,1);

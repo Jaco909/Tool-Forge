@@ -58,6 +58,7 @@ public class ModularSMG extends ModularGun implements ItemInteractAction {
         this.ammoConsumeChance = 0.5F;
         this.velocity.setBaseValue(400);
         this.knockback.setBaseValue(20);
+        this.setItemCategory(new String[]{"TF", "machinegun"});
     }
     public InventoryItem defaultBarrel(InventoryItem item){
         return ItemRegistry.getItem(item.getGndData().getString("BarrelItem","BarrelMachinegunIron")).getDefaultItem(null,1);

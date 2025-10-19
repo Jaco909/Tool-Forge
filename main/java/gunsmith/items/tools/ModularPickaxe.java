@@ -61,6 +61,7 @@ public class ModularPickaxe extends CustomPickaxeToolItem implements ItemInterac
         this.showAttackAllDirections = true;
         this.attackXOffset = 0;
         this.attackYOffset = 9;
+        this.setItemCategory(new String[]{"TF", "pickaxe"});
     }
     public boolean animDrawBehindHand(InventoryItem item) {
         return true;

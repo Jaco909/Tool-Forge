@@ -86,6 +86,7 @@ public class ModularGlaive extends GlaiveToolItem implements ItemInteractAction 
         this.attackYOffset = 58;
         this.canBeUsedForRaids = false;
         this.useForRaidsOnlyIfObtained = false;
+        this.setItemCategory(new String[]{"TF", "glaive"});
     }
 
     //////////////////////////////////////////////

@@ -18,7 +18,7 @@ import java.awt.*;
 public class BarrelShotgun extends PartMatItem {
 
     public BarrelShotgun() {
-        this.setItemCategory(new String[]{"shotgunBarrel"});
+        this.setItemCategory(new String[]{"parts", "shotgun", "shotgunBarrel"});
         this.setItemCategory(ItemCategory.craftingManager, new String[]{"shotgunBarrel"});
     }
     public void drawIcon(InventoryItem item, PlayerMob perspective, int x, int y, int size, Color color) {

@@ -12,7 +12,7 @@ public class BarrelMachinegun extends MatItem {
 
     public BarrelMachinegun() {
         super(1, Rarity.COMMON);
-        this.setItemCategory(new String[]{"machinegunBarrel"});
+        this.setItemCategory(new String[]{"parts", "machinegun", "machinegunBarrel"});
         this.setItemCategory(ItemCategory.craftingManager, new String[]{"machinegunBarrel"});
     }
 

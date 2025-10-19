@@ -17,7 +17,7 @@ import java.awt.*;
 public class BodyGlaive extends PartMatItem {
 
     public BodyGlaive() {
-        this.setItemCategory(new String[]{"glaiveGrip"});
+        this.setItemCategory(new String[]{"parts", "glaive", "glaiveGrip"});
         this.setItemCategory(ItemCategory.craftingManager, new String[]{"glaiveGrip"});
     }
     public void drawIcon(InventoryItem item, PlayerMob perspective, int x, int y, int size, Color color) {

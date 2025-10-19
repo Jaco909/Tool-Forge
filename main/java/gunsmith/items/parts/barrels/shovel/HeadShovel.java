@@ -17,7 +17,7 @@ import java.awt.*;
 public class HeadShovel extends PartMatItem {
 
     public HeadShovel() {
-        this.setItemCategory(new String[]{"shovelHead"});
+        this.setItemCategory(new String[]{"parts", "shovel", "shovelHead"});
         this.setItemCategory(ItemCategory.craftingManager, new String[]{"shovelHead"});
     }
     public void drawIcon(InventoryItem item, PlayerMob perspective, int x, int y, int size, Color color) {

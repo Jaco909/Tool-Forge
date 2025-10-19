@@ -17,7 +17,7 @@ public class HeadGlaive extends MatItem {
 
     public HeadGlaive() {
         super(1, Rarity.COMMON);
-        this.setItemCategory(new String[]{"glaiveBlade"});
+        this.setItemCategory(new String[]{"parts", "glaive", "glaiveBlade"});
         this.setItemCategory(ItemCategory.craftingManager, new String[]{"glaiveBlade"});
     }
     public void drawIcon(InventoryItem item, PlayerMob perspective, int x, int y, int size, Color color) {

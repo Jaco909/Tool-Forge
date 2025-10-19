@@ -22,7 +22,7 @@ import java.util.ArrayList;
 public class ShaftPickaxe extends PartMatItem {
 
     public ShaftPickaxe() {
-        this.setItemCategory(new String[]{"pickaxeShaft"});
+        this.setItemCategory(new String[]{"parts", "pickaxeShaft"});
         this.setItemCategory(ItemCategory.craftingManager, new String[]{"pickaxeShaft"});
     }
     public void drawIcon(InventoryItem item, PlayerMob perspective, int x, int y, int size, Color color) {

@@ -94,6 +94,7 @@ public class ModularShovel extends CustomShovelToolItem implements InternalInven
         this.showAttackAllDirections = true;
         this.attackXOffset = -4;
         this.attackYOffset = 3;
+        this.setItemCategory(new String[]{"TF", "shovel"});
     }
     public boolean animDrawBehindHand(InventoryItem item) {
         return true;

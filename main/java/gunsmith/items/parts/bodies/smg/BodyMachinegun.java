@@ -12,7 +12,7 @@ public class BodyMachinegun extends MatItem {
 
     public BodyMachinegun() {
         super(1, Rarity.COMMON);
-        this.setItemCategory(new String[]{"machinegunBody"});
+        this.setItemCategory(new String[]{"parts", "machinegun", "machinegunBody"});
         this.setItemCategory(ItemCategory.craftingManager, new String[]{"machinegunBody"});
     }
 

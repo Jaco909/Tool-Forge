@@ -20,7 +20,7 @@ import java.awt.*;
 public class BodyPickaxe extends PartMatItem {
 
     public BodyPickaxe() {
-        this.setItemCategory(new String[]{"pickaxeBody"});
+        this.setItemCategory(new String[]{"parts", "pickaxe", "pickaxeBody"});
         this.setItemCategory(ItemCategory.craftingManager, new String[]{"pickaxeBody"});
     }
     public void drawIcon(InventoryItem item, PlayerMob perspective, int x, int y, int size, Color color) {

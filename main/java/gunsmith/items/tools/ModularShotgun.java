@@ -53,10 +53,10 @@ public class ModularShotgun extends ModularGun implements ItemInteractAction {
         this.attackYOffset = 12;
         this.attackDamage.setBaseValue(0.0F).setUpgradedValue(5,0f);
         this.attackRange.setBaseValue(640);
-        //this.ammoConsumeChance = 0.001F;
         this.velocity.setBaseValue(350);
         this.knockback.setBaseValue(50);
         this.resilienceGain.setBaseValue(0.1F);
+        this.setItemCategory(new String[]{"TF", "shotgun"});
     }
 
     public InventoryItem defaultBarrel(InventoryItem item){

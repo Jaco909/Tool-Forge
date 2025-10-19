@@ -17,7 +17,7 @@ import java.awt.*;
 public class ShaftGlaive extends PartMatItem {
 
     public ShaftGlaive() {
-        this.setItemCategory(new String[]{"glaiveShaft"});
+        this.setItemCategory(new String[]{"parts", "glaive", "glaiveShaft"});
         this.setItemCategory(ItemCategory.craftingManager, new String[]{"glaiveShaft"});
     }
     public void drawIcon(InventoryItem item, PlayerMob perspective, int x, int y, int size, Color color) {

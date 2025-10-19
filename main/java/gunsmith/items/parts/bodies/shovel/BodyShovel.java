@@ -17,7 +17,7 @@ import java.awt.*;
 public class BodyShovel extends PartMatItem {
 
     public BodyShovel() {
-        this.setItemCategory(new String[]{"shovelBody"});
+        this.setItemCategory(new String[]{"parts", "shovel", "shovelBody"});
         this.setItemCategory(ItemCategory.craftingManager, new String[]{"shovelBody"});
     }
     public void drawIcon(InventoryItem item, PlayerMob perspective, int x, int y, int size, Color color) {

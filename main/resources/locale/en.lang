@@ -13,20 +13,38 @@ PARTSBENCH3=Tungsten Parts Bench
 PARTSBENCH4=Fallen Parts Bench
 
 [itemcategory]
+TF=Tool Forge Tools
+parts=Tool Forge Parts
+pickaxe=Pickaxe
+shovel=Shovel
+axe=Axe
+glaive=Glaive
+machinegun=Machinegun
+shotgun=Shotgun
+rifle=Rifle
+pistol=Handgun
+
+pickaxeHead=Pickaxe Heads
+pickaxeBody=Pickaxe Braces
+shovelHead=Shovel Heads
+shovelBody=Shovel Braces
+pickaxeShaft=Tool Shafts
+glaiveBlade=Glaive Blade
+glaiveGrip=Glaive Grip
+glaiveShaft=Glaive Shaft
 pistolBarrel=Handgun Barrels
 pistolBody=Handgun Bodies
 pistolStock=Handgun Stocks
 shotgunBarrel=Shotgun Barrels
 shotgunBody=Shotgun Bodies
 shotgunStock=Shotgun Stocks
-pickaxeHead=Pickaxe Heads
-pickaxeBody=Pickaxe Braces
-pickaxeShaft=Tool Shafts
-shovelHead=Shovel Heads
-shovelBody=Shovel Braces
-glaiveBlade=Glaive Blade
-glaiveGrip=Glaive Grip
-glaiveShaft=Glaive Shaft
+machinegunBarrel=Machinegun Barrels
+machinegunBody=Machinegun Bodies
+machinegunStock=Machinegun Stocks
+rifleBarrel=Rifle Barrels
+rifleBody=Rifle Bodies
+rifleStock=Rifle Stocks
+
 
 [item]
 myceliumhat=Debug Hat

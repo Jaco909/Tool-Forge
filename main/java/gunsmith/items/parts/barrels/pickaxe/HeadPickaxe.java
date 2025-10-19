@@ -18,7 +18,7 @@ import java.awt.*;
 public class HeadPickaxe extends PartMatItem {
 
     public HeadPickaxe() {
-        this.setItemCategory(new String[]{"pickaxeHead"});
+        this.setItemCategory(new String[]{"parts", "pickaxe", "pickaxeHead"});
         this.setItemCategory(ItemCategory.craftingManager, new String[]{"pickaxeHead"});
     }
     public void drawIcon(InventoryItem item, PlayerMob perspective, int x, int y, int size, Color color) {
