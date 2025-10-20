@@ -41,7 +41,7 @@ public class GrassPatch {
             level.onTileLootTableDropped(dropsEvent);
             if (gameTile.getStringID().contains("grass") && attacker != null && attacker.getAttackOwner() instanceof PlayerMob) {
                 InventoryItem shovel = client.playerMob.getSelectedItem();
-                if (shovel.item instanceof ModularShovel && ItemRegistry.getItem(shovel.getGndData().getString("BodyItem", "BodyShovelBasic")).getDefaultItem(client.playerMob, 1).getGndData().getString("BodyName", "Basic").equalsIgnoreCase("Grass")) {
+                if (shovel != null && shovel.item instanceof ModularShovel && ItemRegistry.getItem(shovel.getGndData().getString("BodyItem", "BodyShovelBasic")).getDefaultItem(client.playerMob, 1).getGndData().getString("BodyName", "Basic").equalsIgnoreCase("Grass")) {
                     if (!((ModularShovel) shovel.item).getInternalInventory(shovel).isSlotClear(0) && ((ModularShovel) shovel.item).getInternalInventory(shovel).getItem(0).item.getStringID().equalsIgnoreCase("landfill")) {
                         InventoryItem tile = new InventoryItem(ItemRegistry.getItem(gameTile.getTileItem().getStringID()), 1);
                         ItemPickupEntity itemDropped = tile.getPickupEntity(level, (float)dropsEvent.dropPos.x, (float)dropsEvent.dropPos.y);

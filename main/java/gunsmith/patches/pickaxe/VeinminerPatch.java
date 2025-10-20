@@ -27,35 +27,37 @@ public class VeinminerPatch {
         if (level.isServer()) {
             if (attacker != null && client != null) {
                 if (attacker.getAttackOwner() instanceof PlayerMob) {
-                    if (ItemRegistry.getItem(client.playerMob.getSelectedItem().getGndData().getString("BodyItem", "BodyPickaxeBasic")).getDefaultItem(client.playerMob, 1).getGndData().getString("BodyName", "Basic").equalsIgnoreCase("VeinMine")) {
-                        if (gameObject instanceof RockOreObject) {
-                            RockOreObject thisOre = (RockOreObject) gameObject;
-                            LevelObject upper = level.getLevelObject(layerID, x, y + 1);
-                            LevelObject lower = level.getLevelObject(layerID, x, y - 1);
-                            LevelObject left = level.getLevelObject(layerID, x - 1, y);
-                            LevelObject right = level.getLevelObject(layerID, x + 1, y);
-                            if (upper.object instanceof RockOreObject) {
-                                RockOreObject oreRockSmall = (RockOreObject) upper.object;
-                                if (Objects.equals(oreRockSmall.droppedOre, thisOre.droppedOre)) {
-                                    level.entityManager.doObjectDamage(layerID, upper.tileX, upper.tileY, 999, 99F, attacker, client);
+                    if (((PlayerMob) attacker.getAttackOwner()).getSelectedItem() != null) {
+                        if (ItemRegistry.getItem(client.playerMob.getSelectedItem().getGndData().getString("BodyItem", "BodyPickaxeBasic")).getDefaultItem(client.playerMob, 1).getGndData().getString("BodyName", "Basic").equalsIgnoreCase("VeinMine")) {
+                            if (gameObject instanceof RockOreObject) {
+                                RockOreObject thisOre = (RockOreObject) gameObject;
+                                LevelObject upper = level.getLevelObject(layerID, x, y + 1);
+                                LevelObject lower = level.getLevelObject(layerID, x, y - 1);
+                                LevelObject left = level.getLevelObject(layerID, x - 1, y);
+                                LevelObject right = level.getLevelObject(layerID, x + 1, y);
+                                if (upper.object instanceof RockOreObject) {
+                                    RockOreObject oreRockSmall = (RockOreObject) upper.object;
+                                    if (Objects.equals(oreRockSmall.droppedOre, thisOre.droppedOre)) {
+                                        level.entityManager.doObjectDamage(layerID, upper.tileX, upper.tileY, 999, 99F, attacker, client);
+                                    }
                                 }
-                            }
-                            if (lower.object instanceof RockOreObject) {
-                                RockOreObject oreRockSmall = (RockOreObject) lower.object;
-                                if (Objects.equals(oreRockSmall.droppedOre, thisOre.droppedOre)) {
-                                    level.entityManager.doObjectDamage(layerID, lower.tileX, lower.tileY, 999, 99F, attacker, client);
+                                if (lower.object instanceof RockOreObject) {
+                                    RockOreObject oreRockSmall = (RockOreObject) lower.object;
+                                    if (Objects.equals(oreRockSmall.droppedOre, thisOre.droppedOre)) {
+                                        level.entityManager.doObjectDamage(layerID, lower.tileX, lower.tileY, 999, 99F, attacker, client);
+                                    }
                                 }
-                            }
-                            if (left.object instanceof RockOreObject) {
-                                RockOreObject oreRockSmall = (RockOreObject) left.object;
-                                if (Objects.equals(oreRockSmall.droppedOre, thisOre.droppedOre)) {
-                                    level.entityManager.doObjectDamage(layerID, left.tileX, left.tileY, 999, 99F, attacker, client);
+                                if (left.object instanceof RockOreObject) {
+                                    RockOreObject oreRockSmall = (RockOreObject) left.object;
+                                    if (Objects.equals(oreRockSmall.droppedOre, thisOre.droppedOre)) {
+                                        level.entityManager.doObjectDamage(layerID, left.tileX, left.tileY, 999, 99F, attacker, client);
+                                    }
                                 }
-                            }
-                            if (right.object instanceof RockOreObject) {
-                                RockOreObject oreRockSmall = (RockOreObject) right.object;
-                                if (Objects.equals(oreRockSmall.droppedOre, thisOre.droppedOre)) {
-                                    level.entityManager.doObjectDamage(layerID, right.tileX, right.tileY, 999, 99F, attacker, client);
+                                if (right.object instanceof RockOreObject) {
+                                    RockOreObject oreRockSmall = (RockOreObject) right.object;
+                                    if (Objects.equals(oreRockSmall.droppedOre, thisOre.droppedOre)) {
+                                        level.entityManager.doObjectDamage(layerID, right.tileX, right.tileY, 999, 99F, attacker, client);
+                                    }
                                 }
                             }
                         }

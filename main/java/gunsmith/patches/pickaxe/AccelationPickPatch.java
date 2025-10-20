@@ -25,15 +25,17 @@ public class AccelationPickPatch {
         if (level.isServer()) {
             if (attacker != null && client != null) {
                 if (attacker.getAttackOwner() instanceof PlayerMob) {
-                    if (((PlayerMob) attacker.getAttackOwner()).getSelectedItem().getGndData().getString("BodyItem", "BodyPickaxeBasic").equalsIgnoreCase("BodyPickaxeAccelerating")) {
-                        if (!attacker.getAttackOwner().buffManager.hasBuff(BuffRegistry.getBuff("AccelerationPickaxeBuff"))) {
-                            ActiveBuff ab = new ActiveBuff("AccelerationPickaxeStacks", attacker.getAttackOwner(), 15F, attacker.getAttackOwner());
-                            if (attacker.getAttackOwner().buffManager.hasBuff(BuffRegistry.getBuff("AccelerationPickaxeStacks"))) {
-                                attacker.getAttackOwner().buffManager.getBuff(BuffRegistry.getBuff("AccelerationPickaxeStacks")).getGndData().setLong("lastTime", level.lastWorldTime);
-                            } else {
-                                ab.getGndData().setLong("lastTime", level.lastWorldTime);
+                    if (((PlayerMob) attacker.getAttackOwner()).getSelectedItem() != null) {
+                        if (((PlayerMob) attacker.getAttackOwner()).getSelectedItem().getGndData().getString("BodyItem", "BodyPickaxeBasic").equalsIgnoreCase("BodyPickaxeAccelerating")) {
+                            if (!attacker.getAttackOwner().buffManager.hasBuff(BuffRegistry.getBuff("AccelerationPickaxeBuff"))) {
+                                ActiveBuff ab = new ActiveBuff("AccelerationPickaxeStacks", attacker.getAttackOwner(), 15F, attacker.getAttackOwner());
+                                if (attacker.getAttackOwner().buffManager.hasBuff(BuffRegistry.getBuff("AccelerationPickaxeStacks"))) {
+                                    attacker.getAttackOwner().buffManager.getBuff(BuffRegistry.getBuff("AccelerationPickaxeStacks")).getGndData().setLong("lastTime", level.lastWorldTime);
+                                } else {
+                                    ab.getGndData().setLong("lastTime", level.lastWorldTime);
+                                }
+                                attacker.getAttackOwner().buffManager.addBuff(ab, true);
                             }
-                            attacker.getAttackOwner().buffManager.addBuff(ab, true);
                         }
                     }
                 }

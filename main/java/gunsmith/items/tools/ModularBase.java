@@ -212,8 +212,6 @@ public class ModularBase {
                     return new GameDamage(type, (((barrelItem.getGndData().getFloat("HeadDamageUpgrade" + item.item.getUpgradeLevel(item) / 100, 16F) + damage-barrelItem.getGndData().getFloat("attackDamage", 0F)) * damageModBase))*damageBonusMod, armorPen, critChance);
                 } else {
                     float upgMod = (barrelItem.getGndData().getFloat("HeadDamageUpgrade10", 66F) - barrelItem.getGndData().getFloat("HeadDamageUpgrade1", 50F))/9;
-                    GameLog.debug.println(upgMod);
-                    GameLog.debug.println(item.item.getUpgradeTier(item));
                     return new GameDamage(type, ((((barrelItem.getGndData().getFloat("HeadDamageUpgrade1", 50F) + (upgMod * (item.item.getUpgradeTier(item) - 1))) + damage-barrelItem.getGndData().getFloat("attackDamage", 0F)) * damageModBase))*damageBonusMod, armorPen, critChance);
                 }
             } else {
