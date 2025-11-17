@@ -1,0 +1,646 @@
+# Traduction réalisée par Caranud (https://steamcommunity.com/id/Caranud/)
+# Version de mod : 1.0.9 [26/10/25]
+# Version de jeu : 1.0.1 [17/10/25] (testé fonctionnel sur la 1.0.2)
+# Date de la dernière traduction : 17/11/2025
+# Note de Caranud : n’hésitez pas à reprendre cette traduction si je ne suis plus actif et disponible depuis un moment ! :) Je suis également sur le serveur Discord (https://discord.com/invite/HSvuUuA).
+
+
+[object]
+GunsmithStation=Atelier de fabrication d'outils
+PartsBench=Établi de pièces détachées
+PartsBenchTier2=Établi démoniaque de pièces détachées
+PartsBenchTier3=Établi de pièces détachées en tungstène
+PartsBenchTier4=Établi déchu de pièces détachées
+BonusPartStation=Enclume de modification
+
+[tech]
+PARTSBENCH=établi de pièces détachées
+PARTSBENCH2=établi démoniaque de pièces détachées
+PARTSBENCH3=établi de pièces détachées en tungstène
+PARTSBENCH4=établi déchu de pièces détachées
+
+[itemcategory]
+TF=Outils d’armurerie
+parts=Pièces d’armurerie
+pickaxe=Pioche personnalisée
+shovel=Pelle personnalisée
+axe=Hache personnalisée
+glaive=Glaive personnalisé
+machinegun=Mitrailleuse personnalisée
+pistol=Pistolet personnalisé
+rifle=Fusil personnalisé
+shotgun=Fusil à pompe personnalisé
+
+// Part 1 : Head-Tête (Pa,Sv) + Blade-Lame (G) + Barrel-Canon (M,Pl,R,Sg)
+
+pickaxeHead=Tête de pioche
+shovelHead=Tête de pelle
+
+glaiveBlade=Lame de glaive
+machinegunBarrel=Canon de mitrailleuse
+pistolBarrel=Canon de pistolet
+rifleBarrel=Canon de fusil
+shotgunBarrel=Canon de fusil à pompe
+
+// Part 2 : Body-Poignée (Pa,Sv) + Grip-Poignée (B) + Body-Corps (M,Ps,R,Sg)
+
+pickaxeBody=Poignée de pioche
+shovelBody=Poignée de pelle
+glaiveGrip=Poignée de glaive
+machinegunBody=Corps de mitrailleuse
+pistolBody=Corps de pistolet
+rifleBody=Corps de fusil
+shotgunBody=Corps de fusil à pompe
+
+// Part 3 : Shaft-Manche (Pa,B) + Stock-Crosse (M,Ps,R,Sg)
+
+pickaxeShaft=Manche d’outil
+glaiveShaft=Manche de glaive
+machinegunStock=Crosse de mitrailleuse
+pistolStock=Crosse de pistolet
+rifleStock=Crosse de fusil
+shotgunStock=Crosse de fusil à pompe
+
+[item]
+myceliumhat=Chapeau mycelium
+
+ModularShotgun=(personnalisé)
+ModularSMG=(personnalisée)
+ModularPistol=(personnalisé)
+ModularBullet=(personnalisé)
+ModularPickaxe=(personnalisée)
+ModularGlaive=(personnalisé)
+ModularShovel=(personnalisée)
+
+(personnalisée)
+// Head + Body + End : Copper-tipped Standard Iron Bullet
+DebugHead=Pointe de balle en cuivre
+DebugHeadName=avec une pointe en cuivre
+DebugBody=Amorce de balle (poudre à canon)
+DebugBodyName=classique
+DebugEnd=Douille de balle en fer
+DebugEndName=en fer
+
+// Part 1 : Head-Tête (Pa,Sv) + Blade-Lame (G) + Barrel-Canon (M,Pl,R,Sg)
+HeadPickaxeWood=Tête de pioche en bois
+HeadPickaxeWoodName=en bois
+HeadPickaxeIron=Tête de pioche en fer
+HeadPickaxeIronName=en fer
+HeadPickaxeCopper=Tête de pioche en cuivre
+HeadPickaxeCopperName=en cuivre
+HeadPickaxeGold=Tête de pioche en or
+HeadPickaxeGoldName=en or
+HeadPickaxeFrost=Tête de pioche givrée
+HeadPickaxeFrostName=givrée
+HeadPickaxeDemonic=Tête de pioche démoniaque
+HeadPickaxeDemonicName=démoniaque
+HeadPickaxeIvy=Tête de pioche en lierre
+HeadPickaxeIvyName=en lierre
+HeadPickaxeTungsten=Tête de pioche en tungstène
+HeadPickaxeTungstenName=en tungstène
+HeadPickaxeGlacial=Tête de pioche glaciale
+HeadPickaxeGlacialName=glaciale
+HeadPickaxeDryad=Tête de pioche de dryade
+HeadPickaxeDryadName=de dryade
+HeadPickaxeMycelium=Tête de pioche en mycelium
+HeadPickaxeMyceliumName=en mycelium
+HeadPickaxeAncient=Tête de pioche ancienne
+HeadPickaxeAncientName=ancienne
+HeadPickaxeIce=Tête de pioche en glace
+HeadPickaxeIceName=en glace
+HeadPickaxeMagma=Tête de pioche en magma
+HeadPickaxeMagmaName=en magma
+HeadPickaxeCrystal=Tête de pioche en crystal
+HeadPickaxeCrystalName=en crystal
+HeadPickaxePlanetary=Tête de pioche planétaire
+HeadPickaxePlanetaryName=planétaire
+HeadPickaxeQuartz=Tête de pioche en quartz
+HeadPickaxeQuartzName=en quartz
+HeadPickaxeRunic=Tête de pioche runique
+HeadPickaxeRunicName=runique
+
+HeadShovelWood=Tête de pelle en bois
+HeadShovelWoodName=en bois
+HeadShovelIron=Tête de pelle en fer
+HeadShovelIronName=en fer
+HeadShovelCopper=Tête de pelle en cuivre
+HeadShovelCopperName=en cuivre
+HeadShovelGold=Tête de pelle en or
+HeadShovelGoldName=en or
+HeadShovelFrost=Tête de pelle givrée
+HeadShovelFrostName=givrée
+HeadShovelDemonic=Tête de pelle démoniaque
+HeadShovelDemonicName=démoniaque
+HeadShovelIvy=Tête de pelle en lierre
+HeadShovelIvyName=en lierre
+HeadShovelTungsten=Tête de pelle en tungstène
+HeadShovelTungstenName=en tungstène
+HeadShovelGlacial=Tête de pelle glaciale
+HeadShovelGlacialName=glaciale
+HeadShovelDryad=Tête de pelle de dryade
+HeadShovelDryadName=de dryade
+HeadShovelMycelium=Tête de pelle en mycelium
+HeadShovelMyceliumName=en mycelium
+HeadShovelAncient=Tête de pelle ancienne
+HeadShovelAncientName=ancienne
+HeadShovelIce=Tête de pelle en glace
+HeadShovelIceName=en glace
+HeadShovelMagma=Tête de pelle en magma
+HeadShovelMagmaName=en magma
+HeadShovelCrystal=Tête de pelle en crystal
+HeadShovelCrystalName=en crystall
+HeadShovelPlanetary=Tête de pelle planétaire
+HeadShovelPlanetaryName=planétaire
+HeadShovelQuartz=Tête de pelle en quartz
+HeadShovelQuartzName=en quartz
+HeadShovelRunic=Tête de pelle runique
+HeadShovelRunicName=runique
+
+HeadGlaiveIron=Lame de glaive en fer
+HeadGlaiveIronName=en fer
+
+BarrelMachinegunIron=Canon de mitrailleuse en fer
+BarrelMachinegunIronName=en fer
+BarrelMachinegunCopper=Canon de mitrailleuse en cuivre
+BarrelMachinegunCopperName=en cuivre
+BarrelMachinegunGold=Canon de mitrailleuse en or
+BarrelMachinegunGoldName=en or
+BarrelMachinegunIvy=Canon de mitrailleuse en lierre
+BarrelMachinegunIvyName=en lierre
+BarrelMachinegunLight=Canon de pistolet-mitraillette
+BarrelMachinegunLightName=léger
+BarrelMachinegunHeavy=canon de mitraillette lourde
+BarrelMachinegunHeavyName=lourde
+BarrelMachinegunLoose=Canon de mitraillette débrayée
+BarrelMachinegunLooseName=débrayée
+
+BarrelPistolIron=Canon de pistolet en fer
+BarrelPistolIronName=en fer
+BarrelPistolGilded=Canon de pistolet doré
+BarrelPistolGildedName=doré
+
+BarrelShotgunIron=Canon de fusil à pompe en fer
+BarrelShotgunIronName=en fer
+BarrelShotgunCopper=Canon de fusil à pompe en cuivre
+BarrelShotgunCopperName=en cuivre
+BarrelShotgunGold=Canon de fusil à pompe en or
+BarrelShotgunGoldName=en or
+BarrelShotgunVoid=Canon de fusil à pompe du vide
+BarrelShotgunVoidName=du vide
+BarrelShotgunShadow=Canon de fusil à pompe de l’ombre
+BarrelShotgunShadowName=de l’ombre
+BarrelShotgunPowered=Canon de fusil à pompe renforcé 
+BarrelShotgunPoweredName=renforcé 
+BarrelShotgunCrystalized=Canon de fusil à pompe crystalisé
+BarrelShotgunCrystalizedName=crystalisé
+BarrelShotgunNatural=Canon de fusil à pompe resserré
+BarrelShotgunNaturalName=resserré
+
+// Part 2 : Body-Poignée (Pa,Sv) + Grip-Poignée (B) + Body-Corps (M,Ps,R,Sg)
+
+BodyPickaxeBasic=Poignée de pioche basique
+BodyPickaxeBasicName=Pioche basique
+BodyPickaxeBattle=Poignée de pioche de bataille
+BodyPickaxeBattleName=Pioche de bataille
+BodyPickaxeVein=Poignée de pioche spécialisée
+BodyPickaxeVeinName=Pioche spécialisée
+BodyPickaxeDowsing=Poignée de pioche de sourcier
+BodyPickaxeDowsingName=Pioche de sourcier
+BodyPickaxeAccelerating=Poignée de pioche accélérante
+BodyPickaxeAcceleratingName=Pioche accélérante
+BodyPickaxeMini=Poignée de pioche réduite
+BodyPickaxeMiniName=Pioche réduite
+
+BodyShovelBasic=Poignée de pelle basique
+BodyShovelBasicName=Pelle basique
+BodyShovelBucket=Poignée de pelle à godet
+BodyShovelBucketName=Pelle à godet
+BodyShovelBlock=Poignée de pelle du chevalier
+BodyShovelBlockName=Pelle du chevalier
+BodyShovelGrass=Poignée de pelle enracinée
+BodyShovelGrassName=Pelle enracinée
+
+BodyGlaiveBasic=Poignée de glaive basique
+BodyGlaiveBasicName=Glaive basique
+BodyGlaiveFire=Poignée de glaive enflammé
+BodyGlaiveFireName=Glaive enflammée
+BodyGlaiveBlock=Poignée de glaive gardien
+BodyGlaiveBlockName=Glaive gardien
+BodyGlaiveDryad=Poignée de glaive de la dryade
+BodyGlaiveDryadName=Glaive de la dryade
+
+BodyMachinegunBasic=Corps de mitrailleuse basique
+BodyMachinegunBasicName=Mitrailleuse basique
+BodyMachinegunRunner=Corps de mitrailleuse agile
+BodyMachinegunRunnerName=Mitrailleuse agile
+BodyMachinegunRipper=Corps de mitrailleuse déchiqueteuse
+BodyMachinegunRipperName=Mitrailleuse déchiqueteuse
+BodyMachinegunBurst=Corps de mitrailleuse à tir en rafale
+BodyMachinegunBurstName=Mitrailleuse à tir en rafale
+BodyMachinegunEconomic=Corps de mitrailleuse économique
+BodyMachinegunEconomicName=Mitrailleuse économique
+BodyMachinegunCrystal=Corps de mitrailleuse cristallin
+BodyMachinegunCrystalName=Mitrailleuse cristalinne
+
+BodyPistolBasic=Corps de pistolet basique
+BodyPistolBasicName=Pistolet basique
+BodyPistolMagic=Corps de pistolet magique
+BodyPistolMagicName=Pistolet magique
+
+BodyShotgunBasic=Corps de fusil à pompe basique
+BodyShotgunBasicName=Fusil à pompe basique
+BodyShotgunCharged=Corps de fusil à pompe scié
+BodyShotgunChargedName=Fusil à pompe scié
+BodyShotgunLiving=Corps de fusil à pompe vivant
+BodyShotgunLivingName=Fusil à pompe vivant
+BodyShotgunStuffed=Corps de fusil à pompe surchargé
+BodyShotgunStuffedName=Fusil à pompe surchargé
+BodyShotgunDoubleBarrel=Corps de fusil à pompe à double canon
+BodyShotgunDoubleBarrelName=Fusil à pompe à double canon
+BodyShotgunNaturesWrath=Corps de fusil à pompe de la colère de la nature
+BodyShotgunNaturesWrathName=Fusil à pompe de la colère de la nature
+
+// Part 3 : Shaft-Manche (Pa,B) + Stock-Crosse (M,Ps,R,Sg)
+
+ShaftPickaxeWood=Manche d’outil en bois
+ShaftPickaxeWoodName=boisée
+ShaftPickaxeQuartz=Manche d’outil en quartz
+ShaftPickaxeQuartzName=quartzeux
+ShaftPickaxeIron=Manche d’outil en fer
+ShaftPickaxeIronName=ferreuse
+ShaftPickaxeRunestone=Manche d’outil en pierre runique
+ShaftPickaxeRunestoneName=runique
+ShaftPickaxeRefined=Manche d’outil raffiné
+ShaftPickaxeRefinedName=raffinée
+ShaftPickaxeWeighted=Manche d’outil alourdi
+ShaftPickaxeWeightedName=alourdie
+ShaftPickaxeCrystal=Manche d’outil en crystal
+ShaftPickaxeCrystalName=à cristaux
+ShaftPickaxeCelestial=Manche d’outilcéleste
+ShaftPickaxeCelestialName=céleste
+ShaftPickaxeSlime=Manche d’outil gélatineux
+ShaftPickaxeSlimeName=gélatineuse
+ShaftPickaxeStrengthened=Manche d’outil renforcé
+ShaftPickaxeStrengthenedName=renforcée
+
+ShaftGlaiveWood=Manche de glaive en bois
+ShaftGlaiveWoodName=boisé
+ShaftGlaiveIron=Manche de glaive en fer
+ShaftGlaiveIronName=métallique
+
+StockMachinegunIron=Crosse de mitrailleuse en fer
+StockMachinegunIronName=métallique
+StockMachinegunVoid=Crosse de mitrailleuse du vide
+StockMachinegunVoidName=du vide
+StockMachinegunHardened=Crosse de mitrailleuse renforcée
+StockMachinegunHardenedName=renforcée
+StockMachinegunTempered=Crosse de mitrailleuse tempérée
+StockMachinegunTemperedName=tempérée
+
+StockPistolIron=Crosse de pistolet en fer
+StockPistolIronName=métallique
+
+StockShotgunIron=Crosse de fusil à pompe en fer
+StockShotgunIronName=métallique
+StockShotgunIvy=Crosse de fusil à pompe en lierre
+StockShotgunIvyName=naturel
+StockShotgunGlacial=Crosse de fusil à pompe glacial
+StockShotgunGlacialName=glacial
+StockShotgunAmber=Crosse de fusil à pompe en ambre
+StockShotgunAmberName=ambré
+StockShotgunPrimal=Crosse de fusil à pompe primal
+StockShotgunPrimalName=primal
+StockShotgunChilled=Crosse de fusil à pompe glacé
+StockShotgunChilledName=glacé
+StockShotgunEnchanted=Crosse de fusil à pompe enchanté
+StockShotgunEnchantedName=enchanté
+StockShotgunDark=Crosse de fusil à pompe sombre
+StockShotgunDarkName=sombre
+StockShotgunAncient=Crosse de fusil à pompe ancien
+StockShotgunAncientName=ancien
+
+
+[ui]
+notPart=Ceci n’est pas une partie d’outil !
+wrongSlot=Mauvais emplacement !
+gunsmithInstructions=Combinez trois parties du même type d’outil ou d’arme.\nIl vous faut la partie haute (canon, tête ou lame), moyenne (corps ou poignée) et basse (crosse ou manche).\nConsultez les descriptions des parties d’objet pour plus de détail sur les statistiques désirées !
+wepCraftButton=Assembler l’outil
+benchOutput=Résultat
+bonusPartsInstructionsStart=Insérez une partie d’outil avec un modificateur bonus pour améliorer OU n’importe quel partie d’outil pour ajouter un modificateur bonus
+bonusPartsInstructionsSame=Combinez trois parties du même outil pour créer une nouvelle partie avec un modificateur bonus aléatoire.
+bonusPartsInstructionsDifferent=Combinez n’importe quel parties d’outils qui ont un bonus de modificateur pour créer une nouvelle partie avec un de ces trois modificateurs.
+bonusPartsInstructionsTotals=Combinez des modificateurs de bonus pour augmenter la taille du bonus.
+bonusMergeButton=Combinez les parties.
+
+[itemtooltip]
+ShotgunPellets=Plomb par tir : <balles>
+Barrel=Canon :
+Body=Corps :
+Stock=Crosse :
+Tip=Pointe :
+Primer=Amorce :
+Shell=Douille :
+Head=Tête :
+Blade=Lame :
+Brace=Poignée :
+Grip=Poignée :
+Shaft=Manche :
+holdShift=Maintenez [input=<shift>] pour les stats
+holdCtrl=Maintenez [input=<ctrl>] pour les parties
+holdparts=Maintenez [input=<shift>] pour les parties et les stats
+pickaxeAccelerating=[input=mouse2] Accélérer
+pickaxeDowsing=[input=mouse2] Pratiquer la radiesthésie (recherche de minéraux).
+AutoUpgradeTip=Améliore automatiquement l’outil fabriqué au tier §#8531a8Tier <tier>§#FFFFFF
+AmmoConsumeTip=A <useage>% de chance de ne pas consommer de munition
+toolMobDégâts=Dégâts d’attaque : <value>
+toolDégâtsTier=Niveau de minage : <value>
+gunsmithStationTip=Combine des parties d’outils en un outil complet.
+partsBenchTip=Utilisé pour fabriquer des parties d’outil.
+bonusPartStationTip=Combinez des parties d’outil pour créer des modificateurs bonus.
+
+[bullettooltip]
+
+[weapontooltip]
+ShotgunTip=Type d’arme : fusil à pompe
+MachinegunTip=Type d’arme : mitraillette
+PistolTip=Type d’arme : pistolet
+PickaxeTip=Type d’arme : pioche
+GlaiveTip=Type d’arme : glaive
+ShovelTip=Type d’outil : pelle
+DégâtsToolTip=Type d’outil : pioche, pelle, hache
+
+[barreltooltip]
+BarrelTip=§#1b99faPartie : Canon
+HeadTip=§#1b99faPartie : Tête
+BladeTip=§#1b99faPartie : Lame
+
+HeadPickaxeWoodTip=Niveau de minage : §#f7b3450\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige\n§#FFFFFFDégâts aux objets : §#f7b34550§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34510§#FFFFFF
+HeadPickaxeCopperTip=Niveau de minage : §#f7b3450\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige\n§#FFFFFFDégâts aux objets : §#f7b34565§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34518§#FFFFFF
+HeadPickaxeIronTip=Niveau de minage : §#f7b3450\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige\n§#FFFFFFDégâts aux objets : §#f7b34580§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34514§#FFFFFF
+HeadPickaxeGoldTip=Niveau de minage : §#f7b3450\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige\n§#FFFFFFDégâts aux objets : §#f7b34595§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34510§#FFFFFF
+
+HeadPickaxeFrostTip=Niveau de minage : §#f7b3451\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige, Donjon du Néant\n§#FFFFFFDégâts aux objets : §#f7b34595§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34516§#FFFFFF
+HeadPickaxeDemonicTip=Niveau de minage : §#f7b3452\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige, Donjon du Néant, Plaines (pierres runiques)\n§#FFFFFFDégâts aux objets : §#f7b345125§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34520§#FFFFFF
+HeadPickaxeRunicTip=Niveau de minage : §#f7b3453\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige, Donjon du Néant, Plaines (pierres runiques), Marais (lierre)\n§#FFFFFFDégâts aux objets : §#f7b345140§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34518§#FFFFFF
+HeadPickaxeIvyTip=Niveau de minage : §#f7b3454\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige, Donjon du Néant, Plaines (pierres runiques), Marais (lierre), Désert (quartz)\n§#FFFFFFDégâts aux objets : §#f7b345155§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34517§#FFFFFF
+
+HeadPickaxeQuartzTip=Niveau de minage : §#f7b3455\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige, Donjon du Néant, Plaines (pierres runiques), Marais (lierre), Désert (quartz)\n§#FFFFFFMurs de cavernes profondes accessibles :§#f7b345 Forêt (tungstène)\n§#FFFFFFDégâts aux objets : §#f7b345170§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34520§#FFFFFF
+HeadPickaxeTungstenTip=Niveau de minage : §#f7b3456\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige, Donjon du Néant, Plaines (pierres runiques), Marais (lierre), Désert (quartz)\n§#FFFFFFMurs de cavernes profondes accessibles :§#f7b345 Forêt (tungstène)\n§#FFFFFFDégâts aux objets : §#f7b345185§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34520§#FFFFFF
+HeadPickaxeGlacialTip=Niveau de minage : §#f7b3457\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige, Donjon du Néant, Plaines (pierres runiques), Marais (lierre), Désert (quartz)\n§#FFFFFFMurs de cavernes profondes accessibles :§#f7b345 Forêt (tungstène), Neige (minerai glacial)\n§#FFFFFFDégâts aux objets : §#f7b345200§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34522§#FFFFFF
+HeadPickaxeDryadTip=Niveau de minage : §#f7b3458\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige, Donjon du Néant, Plaines (pierres runiques), Marais (lierre), Désert (quartz)\n§#FFFFFFMurs de cavernes profondes accessibles :§#f7b345 Forêt (tungstène), Neige (minerai glacial), Plaines (ambre), Marais (mycélium)\n§#FFFFFFDégâts aux objets : §#f7b345215§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34524§#FFFFFF
+HeadPickaxeMyceliumTip=Niveau de minage : §#f7b3459\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige, Donjon du Néant, Plaines (pierres runiques), Marais (lierre), Désert (quartz)\n§#FFFFFFMurs de cavernes profondes accessibles :§#f7b345 Forêt (tungstène), Neige (minerai glacial), Plaines (ambre), Marais (mycélium), Désert (fossile ancien)\n§#FFFFFFDégâts aux objets : §#f7b345230§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34522§#FFFFFF
+
+HeadPickaxeAncientTip=Niveau de minage : §#f7b34510\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige, Donjon du Néant, Plaines (pierres runiques), Marais (lierre), Désert (quartz)\n§#FFFFFFMurs de cavernes profondes accessibles :§#f7b345 Forêt (tungstène), Neige (minerai glacial), Plaines (ambre), Marais (mycélium), Désert (fossile ancien)\n§#FFFFFFDégâts aux objets : §#f7b345245§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34528§#FFFFFF
+HeadPickaxeIceTip=Niveau de minage : §#f7b34510\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige, Donjon du Néant, Plaines (pierres runiques), Marais (lierre), Désert (quartz)\n§#FFFFFFMurs de cavernes profondes accessibles :§#f7b345 Forêt (tungstène), Neige (minerai glacial), Plaines (ambre), Marais (mycélium), Désert (fossile ancien)\n§#FFFFFFDégâts aux objets : §#f7b345225§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34526§#FFFFFF\nPortée §#00B715+1§#FFFFFF 
+HeadPickaxeMagmaTip=Niveau de minage : §#f7b34510\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige, Donjon du Néant, Plaines (pierres runiques), Marais (lierre), Désert (quartz)\n§#FFFFFFMurs de cavernes profondes accessibles :§#f7b345 Forêt (tungstène), Neige (minerai glacial), Plaines (ambre), Marais (mycélium), Désert (fossile ancien)\n§#FFFFFFDégâts aux objets : §#f7b345205§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34534§#FFFFFF\n§#FF6100Enflamme§#FFFFFF la cible au toucher.\nLes cibles §#FF6100enflammées§#FFFFFF subissent davantage de dégâts.
+HeadPickaxeCrystalTip=Niveau de minage : §#f7b34510\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige, Donjon du Néant, Plaines (pierres runiques), Marais (lierre), Désert (quartz)\n§#FFFFFFMurs de cavernes profondes accessibles :§#f7b345 Forêt (tungstène), Neige (minerai glacial), Plaines (ambre), Marais (mycélium), Désert (fossile ancien)\n§#FFFFFFDégâts aux objets : §#f7b345275§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34524§#FFFFFF
+
+HeadPickaxePlanetaryTip=Niveau de minage : §#f7b34511\n§#FFFFFFMurs de cavernes accessibles :§#f7b345 Forêt, Neige, Donjon du Néant, Plaines (pierres runiques), Marais (lierre), Désert (quartz)\n§#FFFFFFMurs de cavernes profondes accessibles :§#f7b345 Forêt (tungstène), Neige (minerai glacial), Plaines (ambre), Marais (mycélium), Désert (fossile ancien)\n§#FFFFFFDégâts aux objets : §#f7b345300§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34530§#FFFFFF
+
+HeadShovelWoodTip=Niveau de minage : §#f7b3450\n§#FFFFFFDégâts aux objets : §#f7b34550§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b3453§#FFFFFF
+HeadShovelCopperTip=Niveau de minage : §#f7b3450\n§#FFFFFFDégâts aux objets : §#f7b34565§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34512§#FFFFFF
+HeadShovelIronTip=Niveau de minage : §#f7b3450\n§#FFFFFFDégâts aux objets : §#f7b34580§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b3456§#FFFFFF
+HeadShovelGoldTip=Niveau de minage : §#f7b3450\n§#FFFFFFDégâts aux objets : §#f7b34595§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b3454§#FFFFFF
+HeadShovelFrostTip=Niveau de minage : §#f7b3451\n§#FFFFFFDégâts aux objets : §#f7b34595§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b3458§#FFFFFF
+HeadShovelDemonicTip=Niveau de minage : §#f7b3452\n§#FFFFFFDégâts aux objets : §#f7b345125§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34510§#FFFFFF
+HeadShovelRunicTip=Niveau de minage : §#f7b3453\n§#FFFFFFDégâts aux objets : §#f7b345140§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34511§#FFFFFF
+HeadShovelIvyTip=Niveau de minage : §#f7b3454\n§#FFFFFFDégâts aux objets : §#f7b345155§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34512§#FFFFFF
+HeadShovelQuartzTip=Niveau de minage : §#f7b3455\n§#FFFFFFDégâts aux objets : §#f7b345170§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34513§#FFFFFF
+HeadShovelTungstenTip=Niveau de minage : §#f7b3456\n§#FFFFFFDégâts aux objets : §#f7b345185§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34514§#FFFFFF
+HeadShovelGlacialTip=Niveau de minage : §#f7b3457\n§#FFFFFFDégâts aux objets : §#f7b345200§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34515§#FFFFFF
+HeadShovelDryadTip=Niveau de minage : §#f7b3458\n§#FFFFFFDégâts aux objets : §#f7b345215§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34517§#FFFFFF
+HeadShovelMyceliumTip=Niveau de minage : §#f7b3459\n§#FFFFFFDégâts aux objets : §#f7b345230§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34516§#FFFFFF
+HeadShovelAncientTip=Niveau de minage : §#f7b34510\n§#FFFFFFDégâts aux objets : §#f7b345245§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34519§#FFFFFF
+HeadShovelIceTip=Niveau de minage : §#f7b34510\n§#FFFFFFDégâts aux objets : §#f7b345225§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34522§#FFFFFF\nPortée §#00B715+1§#FFFFFF 
+HeadShovelMagmaTip=Niveau de minage : §#f7b34510\n§#FFFFFFDégâts aux objets : §#f7b345205§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34527§#FFFFFF\n§#FF6100Enflamme§#FFFFFF la cible au toucher.\nLes cibles §#FF6100enflammées§#FFFFFF subissent davantage de dégâts.
+HeadShovelCrystalTip=Niveau de minage : §#f7b34510\n§#FFFFFFDégâts aux objets : §#f7b345275§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34520§#FFFFFF
+HeadShovelPlanetaryTip=Niveau de minage : §#f7b34511\n§#FFFFFFDégâts aux objets : §#f7b345300§#FFFFFF\n§#FFFFFFDégâts d’attaque: §#f7b34525§#FFFFFF
+
+HeadGlaiveWoodTip=Dégâts : §#f7b34514\nVitesse d’attaque §#00B715+20%§#FFFFFF 
+HeadGlaiveIronTip=Dégâts : §#f7b34516\nRecul §#00B715+20%§#FFFFFF\nVitesse d’attaque §#FF0000-10%§#FFFFFF
+HeadGlaiveGoldTip=Dégâts : §#f7b34520
+
+HeadGlaiveFrostTip=Dégâts : §#f7b34522\nChances de critiques §#00B715+10%§#FFFFFF\nDégâts §#FF0000-12%§#FFFFFF
+HeadGlaiveRunestoneTip=Dégâts : §#f7b34530
+HeadGlaiveIvyTip=Dégâts : §#f7b34534\nPortée d’attaque §#00B715+15%§#FFFFFF\nChances de critique§#FF0000-10%§#FFFFFF
+HeadGlaiveQuartzTip=Dégâts : §#f7b34539\nVitesse de mouvement réduite (§#00B715-14%§#FFFFFFy)\nRecul §#FF0000-30%§#FFFFFF
+
+HeadGlaiveTungstenTip=Dégâts : §#f7b34547
+HeadGlaiveCryoTip=Dégâts : §#f7b34551\nDégâts critiques §#00B715+20%§#FFFFFF\nDégâts §#FF0000-10%§#FFFFFF
+HeadGlaiveMyceliumTip=Dégâts : §#f7b34559\nRecul §#00B715+25%§#FFFFFF
+
+HeadGlaiveSlimeTip=Dégâts : §#f7b34565\nVitesse d’attaque §#00B715+20%§#FFFFFF
+HeadGlaiveSpiderTip=Dégâts : §#f7b34568\nPortée d’attaque §#00B715+26%§#FFFFFF
+HeadGlaiveCrystalTip=Dégâts : §#f7b34570\nRésistance au toucher§#00B715+1§#FFFFFF\nPortée d’attaque§#FF0000-12%§#FFFFFF
+
+BarrelShotgunIronTip=Canon basique, pas de modificateur
+BarrelShotgunCopperTip=Dégâts §#00B715+12%§#FFFFFF\nDispersion des balles §#FF0000+27%§#FFFFFF
+BarrelShotgunGoldTip=Dispersion des balles §#00B715-50%§#FFFFFF\nPortée §#00B715+50%§#FFFFFF\nDégâts §#FF0000-16%§#FFFFFF
+BarrelShotgunVoidTip=Les balles du vide infligent des dégâts maximum\nPortée §#00B715+20%§#FFFFFF
+BarrelShotgunNaturalTip=Dispersion des balles §#00B715-70%§#FFFFFF\nVitesse de projectile §#00B715+70%§#FFFFFF \nBalles §#FF0000-1§#FFFFFF
+BarrelShotgunCrystalizedTip=Portée §#00B715+25%§#FFFFFF\nVitesse de projectile §#00B715+50%§#FFFFFF\nDispersion des balles §#00B715-30%§#FFFFFF\n§#FF0000Pas de Recul
+BarrelShotgunShadowTip=Dégâts §#00B715+50%§#FFFFFF\nDispersion des balles§#FF0000+130%§#FFFFFF \nPortée§#FF0000-50%§#FFFFFF
+BarrelShotgunPoweredTip=Dégâts §#00B715+26%§#FFFFFF\nRecul §#00B715x4§#FFFFFF \nVitesse d’attaque §#FF0000-22%§#FFFFFF
+
+BarrelMachinegunIronTip=Canon basique, pas de modificateur
+BarrelMachinegunCopperTip=Dégâts §#00B715+7%§#FFFFFF\nDispersion§#FF0000+17%§#FFFFFF
+BarrelMachinegunGoldTip=Dispersion §#00B715-12%§#FFFFFF\nPortée§#00B715+20%§#FFFFFF\nDégâts §#FF0000-10%§#FFFFFF
+BarrelMachinegunIvyTip=Dispersion §#00B715-20%§#FFFFFF\nPortée §#00B715+25%§#FFFFFF\nDégâts §#FF0000-15%§#FFFFFF
+BarrelMachinegunLightTip=Vitesse de mouvement §#00B715-15%§#FFFFFF \nDégâts §#FF0000-15%§#FFFFFF 
+BarrelMachinegunHeavyTip=Dégâts §#00B715+45%§#FFFFFF\nVitesse de mouvement §#FF0000+23%§#FFFFFF 
+BarrelMachinegunLooseTip=Vitesse d’attaque§#00B715+17%§#FFFFFF \nDégâts §#FF0000-15%§#FFFFFF 
+
+BarrelShotgunDemonicTip=Dégâts §#00B715+10%§#FFFFFF \nVitesse d’attaque  §#FF0000-15%§#FFFFFF
+BarrelShotgunQuartzTip=Portée §#FF0000-40%§#FFFFFF\nProbabilité de ne pas consommer de munition §#§#00B715+25%§#FFFFFF 
+BarrelShotgunFrozenTip=Dégâts §#FF0000-15%§#FFFFFF \nVitesse d’attaque §#FF0000+15%§#FFFFFF
+BarrelShotgunTungstenTip=Dégâts §#00B715+15%§#FFFFFF 
+BarrelShotgunAncientTip=Dégâts §#00B715+30%§#FFFFFF \nDispersion des balles §#FF0000+63%§#FFFFFF
+BarrelShotgunGlacialTip=Dégâts §#FF0000-15%§#FFFFFF\nVitesse d’attaque §#FF0000+20%§#FFFFFF
+BarrelShotgunRubyTip=Dégâts §#FF0000-37%§#FFFFFF\nPénétration §#00B715+1§#FFFFFF 
+BarrelShotgunSapphireTip=Dégâts §#FF0000-80%§#FFFFFF\nRésistance au toucher §#00B7153§#FFFFFF 
+BarrelShotgunEmeraldTip=Dégâts §#FF0000-30%§#FFFFFF\nBalles §#00B715+1§#FFFFFF 
+BarrelShotgunSpideriteTip=Portée §#00B715+50%§#FFFFFF\nVitesse de projectile §#§#00B715+50%§#FFFFFF 
+BarrelShotgunNightsteelTip=Dégâts §#FF0000-14%§#FFFFFF\nDispersion des balles §#00B715-120%§#FFFFFF 
+BarrelShotgunCryoTip=Dégâts §#FF0000-20%§#FFFFFF\nVitesse d’attaque §#FF0000+25%§#FFFFFF  
+
+BarrelPistolIronTip=Canon basique, pas de modificateur
+BarrelPistolGildedTip=Vitesse de projectile §#00B715+20%§#FFFFFF\nVitesse de mouvement §#00B715-12%§#FFFFFF\nDégâts §#FF0000-14%§#FFFFFF
+
+[bodytooltip]
+BodyTip=§#1b99faPartie : Corps
+BraceTip=§#1b99faPartie : Poignée
+GripTip=§#1b99faPartie : Poignée
+
+BodyPickaxeBasicTip=Poignée basique, pas de modificateur
+BodyPickaxeBattleTip=Vitesse d’attaque §#00B715+15%§#FFFFFF \nDégâts d’attaque §#00B715+85%§#FFFFFF\nDégâts aux objets §#FF0000-50%§#FFFFFF
+BodyPickaxeVeinTip=§#00B715Permet de miner des veines entières en en fois§#FFFFFF\nNiveau de minage§#FF0000-1§#FFFFFF\nVitesse d’attaque §#FF0000-10%§#FFFFFF\nDégâts aux objets§#FF0000-15%§#FFFFFF 
+BodyPickaxeDowsingTip=[input=mouse2] permet de localiser des minerais\nAjoute un niveau de fatigue à l’utilisation
+BodyPickaxeAcceleratingTip=Ajoute une charge d’accélération à chaque coup donné\n[input=mouse2]Dépensez toutes vos charges pour augmenter temporairement votre niveau de minage\nLes charges disparaissent progressivement naturellement.\nVitesse d’attaque §#FF0000-10%§#FFFFFF 
+BodyPickaxeMiniTip=Vitesse d’attaque §#00B715+147%§#FFFFFF\nPortée d’attaque §#FF0000-65%§#FFFFFF\nDégâts d’attaque §#FF0000-50%§#FFFFFF \nDégâts aux objets§#FF0000-50%§#FFFFFF\nPortée d’outil§#FF0000-2§#FFFFFF 
+
+BodyShovelBasicTip=Poignée basique, pas de modificateur
+BodyShovelBucketTip=[input=mouse2]Permet de récupérer des liquides\n[input=mouse2] dans l’inventaire pour accéder à la réserve.\nRécupérera des liquides en utilisant les seaux présents dans l’inventaire.\nPortée d’outil §#FF0000-1§#FFFFFF\nPortée d’attaque §#FF0000-20%§#FFFFFF
+BodyShovelBlockTip=§#00B715Renvoie les projectiles au contact§#FFFFFF\nVitesse d’attaque §#00B715+30%§#FFFFFF\nDégâts d’attaque §#00B715+35%§#FFFFFF\nDégâts aux objets §#FF0000-50%§#FFFFFF \nPortée d’outil §#FF0000-2§#FFFFFF
+BodyShovelGrassTip=[input=mouse2] dans l’inventaire pour ouvrir\nPeut récupérer de l’herbe\nPortée d’outil§#FF0000-1§#FFFFFF \nPortée d’attaque §#FF0000-20%§#FFFFFF
+
+BodyGlaiveBasicTip=Poignée basique, pas de modificateur
+BodyGlaiveFireTip=Projette un anneau de §#FF6100feu§#FFFFFF à l’attaque\nLes cibles §#FF6100enflammées§#FFFFFF subissent davantage de dégâts.
+BodyGlaiveBlockTip=Peut bloquer jusqu’à §#00B7153§#FFFFFF projectiles à chaque attaque\n5 secondes de délai par blocage\nVitesse d’attaque§#00B715+70%§#FFFFFF\nDégâts §#FF0000-60%§#FFFFFF 
+BodyGlaiveDryadTip=[input=mouse2] pour cibler un ennemi\nLorsque vous attaquez, chaque attaque réussie vous procure §#00B715+2%§#FFFFFF vitesse d’attaque et de mouvement, jusqu’à §#00B715+100%§#FFFFFF.\n\n§#1EB18FApplique une charge de "Hanté par la Dryade" aux cibles touchées. Une fois arrivé à 10 charges, invoque un esprit de dryade immobilise les ennemis pour une courte durée.§#FFFFFF
+
+BodyShotgunBasicTip=Corps basique, pas de modificateur
+BodyShotgunLivingTip=Lance une feuille perforante à l’attaque\nBalles §#FF0000-1§#FFFFFF\nDégâts§#FF0000-16%§#FFFFFF
+BodyShotgunDoubleBarrelTip=[input=mouse2] pour tirer avec les deux canons à la fois.\nVitesse d’attaque§#00B715+10%§#FFFFFF \nDispersion des balles §#FF0000+60%§#FFFFFF \nPortée §#FF0000-25%§#FFFFFF\nDégâts §#FF0000-15%§#FFFFFF
+BodyShotgunChargedTip=Vitesse d’attaque§#00B715x2.5§#FFFFFF \nDégâts §#FF0000-65%§#FFFFFF 
+BodyShotgunStuffedTip=Balles §#00B715+3§#FFFFFF\nVitesse d’attaque §#FF0000-40%§#FFFFFF 
+BodyShotgunNaturesWrathTip=§#f7b34530§#FFFFFF% probabilités de §#eb8e42brûler§#FFFFFF, d’§#83d437empoisonner§#FFFFFF, ou §#6298f0geler§#FFFFFF une cible\nDégâts §#FF0000-15%§#FFFFFF
+
+BodyPistolBasicTip=Corps basique\nPas de modificateur
+BodyPistolMagicTip=Convertit les dégâts de l’arme en §#c956eeMagic§#FFFFFF\nConsomme de la §#0bc9dfmana§#FFFFFF (§#f7b3455§#FFFFFF + §#f7b3455%§#FFFFFF dégâts de l’arme)\n§#c956eeA Spécialité des magiciens tacticiens §#FFFFFF
+BodyPistolCryoTip=Ajoute la capacité de geler les monstres sur place
+BodyPistolSapphireTip=Peut charger pour lancer un tir plus puissant
+BodyPistolWebbedTip=Corps basique\nPas de modificateur
+BodyPistolFlintlockTip=Corps basique\nPas de modificateur
+BodyPistolRevolverTip=Lance des salves de 6 munitions
+
+BodyMachinegunBasicTip=Corps basique, pas de modificateur
+BodyMachinegunRipperTip=La vitesse d’attaque augmente en tirant.\nProbabilité de consommer des munitions §#00B715-25%§#FFFFFF\nDispersion§#FF0000+38%§#FFFFFF
+BodyMachinegunRunnerTip=§#00B715Pas de pénalité de vitesse de mouvement\nDispersion§#FF0000x2.5§#FFFFFF \nPortée §#FF0000-35%§#FFFFFF 
+BodyMachinegunBurstTip=Lance des rafales de 3 munitions\nPeut ne consommer qu’une seule munition par rafale\nVitesse d’attaque§#00B715+50%§#FFFFFF \nDégâts §#FF0000-14%§#FFFFFF
+BodyMachinegunEconomicTip=§#00B715-40%§#FFFFFF probabilité de consommer des munitions\n§#FF000011%§#FFFFFF de tir manqué
+BodyMachinegunCrystalTip=§#00B715Lance des crystals explosifs au toucher§#FFFFFF\nProbabilité de consommation de munition §#FF0000+25%§#FFFFFF 
+
+BodyLeverActionBasicTip1=Corps basique, pas de modificateur
+BodySniperBasicTip1=Obtient un viseur\nVitesse de déplacement§#FF0000-30%§#FFFFFF 
+BodyAWPBasicTip1=?????\n[Pas de traduction disponible]
+BodyAntiqueBasicTip1=Ajoute la probabilité d’un tir perçant\nDégâts§#FF0000-15%§#FFFFFF
+
+[stocktooltip]
+StockTip=§#1b99faPartie : crosse (3)
+ShaftTip=§#1b99faPartie : manche (3)
+
+ShaftPickaxeWoodTip=Vitesse d’attaque : §#f7b3452§#FFFFFF
+ShaftPickaxeRunestoneTip=Vitesse d’attaque : §#f7b3452.2§#FFFFFF
+ShaftPickaxeQuartzTip=Vitesse d’attaque : §#f7b3452§#FFFFFF\nDégâts d’attaque§#00B715+20%§#FFFFFF 
+ShaftPickaxeIronTip=Vitesse d’attaque : §#f7b3452§#FFFFFF\nDégâts d’outil §#00B715+15%§#FFFFFF
+ShaftPickaxeWeightedTip=Vitesse d’attaque : §#f7b3452.2§#FFFFFF\nRecul§#00B715+50%§#FFFFFF 
+ShaftPickaxeStrengthenedTip=Vitesse d’attaque : §#f7b3452.2§#FFFFFF\nPortée d’attaque§#00B715+20%§#FFFFFF
+ShaftPickaxeRefinedTip=Vitesse d’attaque : §#f7b3452.5§#FFFFFF
+ShaftPickaxeCelestialTip=Vitesse d’attaque : §#f7b3453§#FFFFFF
+ShaftPickaxeSlimeTip=Vitesse d’attaque : §#f7b3452.5§#FFFFFF\nPortée de minage§#00B715+1§#FFFFFF
+ShaftPickaxeCrystalTip=Vitesse d’attaque : §#f7b3452.5§#FFFFFF\nChances de critique§#00B715+30%§#FFFFFF 
+
+ShaftGlaiveWoodTip=Vitesse d’attaque : §#f7b3452§#FFFFFF
+ShaftGlaiveIvyTip=Vitesse d’attaque : §#f7b3451.8§#FFFFFF\n§#00B715+20%§#FFFFFF Dégâts
+ShaftGlaiveRunestoneTip=Vitesse d’attaque : §#f7b3451.8§#FFFFFF\nPortée d’attaque §#00B715+15%§#FFFFFF 
+
+ShaftGlaiveTungstenTip=Vitesse d’attaque : §#f7b3452.2§#FFFFFF
+ShaftGlaiveDryadTip=Vitesse d’attaque : §#f7b3452§#FFFFFF\nRecul §#00B715+20%§#FFFFFF
+ShaftGlaiveAncientTip=Vitesse d’attaque : §#f7b3452§#FFFFFF\nChances de critique & dégâts§#00B715+10%§#FFFFFF 
+
+ShaftGlaiveShadowTip=Vitesse d’attaque : §#f7b3452.5§#FFFFFF
+ShaftGlaiveSpiderTip=Vitesse d’attaque : §#f7b3452.2§#FFFFFF\nVitesse de mouvement §#00B715-18%§#FFFFFF 
+ShaftGlaivePrimalTip=Vitesse d’attaque : §#f7b3452.2§#FFFFFF\nRésistance au toucher §#00B715+1§#FFFFFF 
+
+StockShotgunIronTip=Dégâts : §#f7b34516\n§#FFFFFFVitesse d’attaque : §#f7b3451.3\n§#FFFFFFBalles : §#f7b3454
+StockShotgunChilledTip=Dégâts : §#f7b34512\n§#FFFFFFVitesse d’attaque : §#f7b3451.3\n§#FFFFFFBalles : §#f7b3454\nVitesse de projectile §#00B715+30%§#FFFFFF
+StockShotgunIvyTip=Dégâts : §#f7b34532\n§#FFFFFFVitesse d’attaque : §#f7b3451\n§#FFFFFFBalles : §#f7b3454
+StockShotgunEnchantedTip=Dégâts : §#f7b34529\n§#FFFFFFVitesse d’attaque : §#f7b3451\n§#FFFFFFBalles : §#f7b3454\nDispersion §#00B715-25%§#FFFFFF
+StockShotgunGlacialTip=Dégâts : §#f7b34542\n§#FFFFFFVitesse d’attaque : §#f7b3451.1\n§#FFFFFFBalles : §#f7b3455
+StockShotgunDarkTip=Dégâts : §#f7b34537\n§#FFFFFFVitesse d’attaque : §#f7b3451.1\n§#FFFFFFBalles : §#f7b3455\nRecul §#00B715+50%§#FFFFFF 
+StockShotgunAmberTip=Dégâts : §#f7b34527\n§#FFFFFFVitesse d’attaque : §#f7b3451.7\n§#FFFFFFBalles : §#f7b3455
+StockShotgunAncientTip=Dégâts : §#f7b34536\n§#FFFFFFVitesse d’attaque : §#f7b3451.7\n§#FFFFFFBalles : §#f7b3454
+StockShotgunPrimalTip=Dégâts : §#f7b34560\n§#FFFFFFVitesse d’attaque : §#f7b3451.2\n§#FFFFFFBalles : §#f7b3453
+
+StockMachinegunIronTip=Dégâts : §#f7b34512\n§#FFFFFFVitesse d’attaque : §#f7b3455§#FFFFFF
+StockMachinegunVoidTip=Dégâts : §#f7b3456\n§#FFFFFFVitesse d’attaque : §#f7b3458.5§#FFFFFF
+StockMachinegunHardenedTip=Dégâts : §#f7b34522\n§#FFFFFFVitesse d’attaque : §#f7b3454.3§#FFFFFF
+StockMachinegunTemperedTip=Dégâts : §#f7b34522\n§#FFFFFFVitesse d’attaque : §#f7b3454.3§#FFFFFF
+
+StockPistolIronTip=Dégâts : §#f7b34517\n§#FFFFFFVitesse d’attaque : §#f7b3452.5§#FFFFFF
+
+[toolabilitytip]
+ShotgunDoubleBarrelTip=[input=mouse2] Tir puissant
+BodyGlaiveDryadTip=[input=mouse2] Cibler une créature
+
+[bullettooltip]
+HeadTip=§#1b99faPart: Pointe
+BodyTip=§#1b99faPart: Amorce
+EndTip=§#1b99faPart: Douille
+
+DebugHeadTip=Dégâts : §#f7b34520§#FFFFFF
+DebugBodyTip=Dégâts : §#00B715+50%§#FFFFFF
+DebugEndTip=Recul: §#00B715+200§#FFFFFF
+
+[bonusmodtip]
+Random=§#07BFE8+???% modificateur de bonus
+BonusCritChance=§<color><unit><value>% chance de coup critique
+BonusCritDégâts=§<color><unit><value>% dégâts critiques
+BonusAttackportée=§<color><unit><value> portée d’attaque
+BonusAttackportéeMod=§<color><unit><value>% portée d’attaque
+BonusRecul=§<color><unit><value> recul
+BonusReculMod=§<color><unit><value>% recul
+BonusPower=§<color><unit><value> dégâts d’outil
+BonusPowerMod=§<color><unit><value>% dégâts d’outil
+BonusAttackSpeed=§<color><unit><value>% vitesse d’attaque
+BonusAttackSpeedMod=§<color><unit><value>% vitesse d’attaque
+BonusDégâts=§<color><unit><value> dégâts d’attaque
+BonusDégâtsMod=§<color><unit><value>% dégâts d’attaque
+BonusMoveSpeed=§<color>-<value>% réduction de vitesse de déplacement
+Bonusportée=§<color><unit><value> portée d’outil
+BonusportéeMod=§<color><unit><value>% portée d’outil
+BonusArmorPen=§<color><unit><value> pénétation d’armure
+BonusLifeSteal=§<color><unit><value> vol de vie au toucher
+BonusLifeStealMod=§<color><unit><value>% vol de vie au toucher
+BonusManaCost=§<color><unit><value> coût en mana
+BonusManaCostMod=§<color><unit><value>% coût en mana
+BonusLifeCost=§<color><unit><value> coût en vie
+BonusLifeCostMod=§<color><unit><value>% coût en vie
+BonusResilienceAdd=§<color><unit><value> résistance au toucher
+BonusResilienceMod=§<color><unit><value>% résistance au toucher
+BonusPellets=§<color><unit><value> projectiles supplémentaires
+BonusdispersionMod=§<color><unit><value>% dispersion des projectiles
+BonusVelocity=§<color><unit><value> vitesse du projectile
+BonusVelocityMod=§<color><unit><value>% vitesse du projectile
+BonusAmmoUseAdd=§<color><value> chance de ne pas consommer de munitions
+
+[tech]
+GUNCRAFTING=Établi de chargement
+
+[loottooltip]
+HeadPickaxePlanetary=§#F76445Récompense rare d’incursion
+
+
+[flavortooltip]
+HeadPickaxePlanetary=§#ECC581La colère radiante du Soleil§#FFFFFF\n§#A0B6D6et la grâce éternelle de la Lune§#FFFFFF\ntransperceront la Terre.
+
+[buff]
+DowsingPickaxeCooldown=Épuisement ensorcelé
+DowsingPickaxeCooldownTip=§#FF00005% §#FFFFFF ralentissement sur la vitesse de minage et de déplacement par niveau
+DowsingPickaxeCooldownTip2=Actuellement : §#FF0000<value>%§#FFFFFF
+AccelerationPickaxeStacks=Poignée de pioche accélérante
+AccelerationPickaxeStacksTip=§#00B715+0.5%§#FFFFFF de vitesse de minage et de puissance par niveau consommé
+AccelerationPickaxeStacksTip2=Sur activation : §#00B715+<value>%§#FFFFFF
+AccelerationPickaxeBuff=Amélioration de pioche accélérante
+AccelerationPickaxeBuffTip=§#00B715<value>%§#FFFFFF vitesse de minage et de puissanc
+GlaiveBlockingStacks=Blocage de projectiles par le glaive
+GlaiveBlockingStacksTip=Peut bloquer <value> projectiles supplémentaires
+GlaiveDryadStacks=Poignée de glaive de la dryade
+
+[settingsui]
+craftingSection=Paramètres de fabrication
+allowBonusInCrafting=Autoriser les pièces avec bonus d’être utilisées dans la fabrication finale
+allowBonusInCraftingtext=Le bonus sera retiré de la partie lorsque vous l’utilisez dans la fabrication.
+colorSection=Paramètres des couleurs
+bonusColor=Couleur de modificateur de bonus
+bonusMaxColor=Couleur de modificateur de bonus maximum
+controlSection=Paramètres des raccourcis
+controlSectiontext=Correspond aux touches configurées dans les paramètres du jeu de base ("Contrôles").
+viewStats=Raccourci d’infobulle des stats
+viewStatstext=Raccourci pour voir l’infobulle des stats.
+viewParts=Raccourci d’infobulle des pièces
+viewPartstext=Raccourci pour voir l’infobulle des pièces détachées.
+invlock=Basculer empl. verrouil.
+invquickmove=Déplacement rapide
+invtrash=Corbeille rapide
+invdrop=Dépôt rapide
